@@ -31,8 +31,9 @@
 		$(this).remove()
 	});
 	}, options.newOn);
-    };
+	};
 })(jQuery);
+
 $(function(){
     $.fn.snow({ 
 	    minSize: 5, /* 定义雪花最小尺寸 */
