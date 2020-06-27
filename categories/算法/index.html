@@ -1,26 +1,50 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="generator" content="Hexo 4.2.1"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>Category: 算法 - Longing(MysteryGuest的博客)</title><meta property="og:type" content="blog"><meta property="og:title" content="Longing(MysteryGuest的博客)"><meta property="og:url" content="http://yoursite.com/"><meta property="og:site_name" content="Longing(MysteryGuest的博客)"><meta property="og:locale" content="en_US"><meta property="og:image" content="http://yoursite.com/img/og_image.png"><meta property="article:author" content="MysticalGuest"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="/img/og_image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://yoursite.com"},"headline":"Longing(MysteryGuest的博客)","image":["http://yoursite.com/img/og_image.png"],"author":{"@type":"Person","name":"MysticalGuest"},"description":""}</script><link rel="icon" href="/img/bird.ico"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;600&amp;family=Roboto+Mono"><link rel="stylesheet" href="/css/cyberpunk.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><script src="/js/click.js"></script><script src="/js/anime.min.js"></script><canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;"></canvas><script src="/js/snow.js"></script><!--!--><script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" defer></script><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css"><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script><script data-ad-client="ca-pub-6320686616967489" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async></script><link rel="alternate" href="/atom.xml" title="Longing(MysteryGuest的博客)" type="application/atom+xml">
-</head><body class="is-3-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/mylogo.svg" alt="Longing(MysteryGuest的博客)" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Visit on GitHub" href="https://github.com/MysticalGuest"><i class="fab fa-github"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-6-widescreen"><div class="card"><div class="card-content"><nav class="breadcrumb" aria-label="breadcrumbs"><ul><li><a href="/categories">Categories</a></li><li class="is-active"><a href="#" aria-current="page">算法</a></li></ul></nav></div></div><div class="card"><div class="card-image"><a class="image is-7by3" href="/2020/06/26/%E6%A0%91%E7%9A%84%E8%A6%81%E7%82%B9%E5%BD%92%E7%BA%B3/"><img class="thumbnail" src="http://pic.yupoo.com/mysteryguest/e9d86b78/bfc30ffd.jpg" alt="树的要点归纳"></a></div><article class="card-content article" role="article"><div class="article-meta size-small is-uppercase level is-mobile"><div class="level-left"><time class="level-item" dateTime="2020-06-26T13:02:31.007Z" title="2020-06-26T13:02:31.007Z">2020-06-26</time><span class="level-item"><a class="link-muted" href="/categories/%E7%AE%97%E6%B3%95/">算法</a></span><span class="level-item">11 分钟 read (About 1605 words)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2020/06/26/%E6%A0%91%E7%9A%84%E8%A6%81%E7%82%B9%E5%BD%92%E7%BA%B3/">树的要点归纳</a></h1><div class="content"><a id="more"></a>
-<h1 id="1-树的基础知识点"><a href="#1-树的基础知识点" class="headerlink" title="1.树的基础知识点"></a>1.树的基础知识点</h1><h2 id="1-1-树的相关概念"><a href="#1-1-树的相关概念" class="headerlink" title="1.1 树的相关概念"></a>1.1 树的相关概念</h2><p>结点拥有的子树数称为节点的度（Degree）。</p>
-<p>度为0的结点称为叶结点（Leaf）或终端结点；度不为0的结点称为非终端结点或分支节点。</p>
-<p>除根节点之外，分支节点也称为内部结点。</p>
-<p>树的度是树内部各结点的度的最大值。</p>
-<p>如果将树中结点的各子树看成从左至右是有次序的，不能互换的，则称该树为有序树，否则称为无序树。</p>
-<p>森林是$m(m \geq 0)$棵互不相交的树的集合。</p>
-<h2 id="1-2-树的存储结构"><a href="#1-2-树的存储结构" class="headerlink" title="1.2 树的存储结构"></a>1.2 树的存储结构</h2><p>双亲表示法</p>
-<p>孩子表示法</p>
-<p>孩子兄弟表示法</p>
-<h2 id="1-3-二叉树的相关概念"><a href="#1-3-二叉树的相关概念" class="headerlink" title="1.3 二叉树的相关概念"></a>1.3 二叉树的相关概念</h2><p>斜树：所有的结点都只有左子树的二叉树叫左斜树。所有结点都只有右子树的二叉树叫右斜树。这二者统称为斜树。</p>
-<p>满二叉树：在一颗二叉树中，如果所有分支结点都存在左子树和右子树，并且所有叶子都在同一层上，这样的二叉树称为满二叉树。</p>
-<p>完全二叉树：对一棵具有n个结点的二叉树按层序编号，如果编号为$i(1 \leq i \leq n)$的节点与同样深度的满二叉树中编号为i的结点在二叉树中位置完全相同，则这棵二叉树称为完全二叉树。</p>
-<p>​    完全二叉树的特点：</p>
+</head><body class="is-3-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/mylogo.svg" alt="Longing(MysteryGuest的博客)" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Visit on GitHub" href="https://github.com/MysticalGuest"><i class="fab fa-github"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-6-widescreen"><div class="card"><div class="card-content"><nav class="breadcrumb" aria-label="breadcrumbs"><ul><li><a href="/categories">Categories</a></li><li class="is-active"><a href="#" aria-current="page">算法</a></li></ul></nav></div></div><div class="card"><div class="card-image"><a class="image is-7by3" href="/2020/06/26/%E6%A0%91%E7%9A%84%E8%A6%81%E7%82%B9%E5%BD%92%E7%BA%B3/"><img class="thumbnail" src="http://pic.yupoo.com/mysteryguest/e9d86b78/bfc30ffd.jpg" alt="树的要点归纳"></a></div><article class="card-content article" role="article"><div class="article-meta size-small is-uppercase level is-mobile"><div class="level-left"><time class="level-item" dateTime="2020-06-26T13:02:31.007Z" title="2020-06-26T13:02:31.007Z">2020-06-26</time><span class="level-item"><a class="link-muted" href="/categories/%E7%AE%97%E6%B3%95/">算法</a></span><span class="level-item">11 分钟 read (About 1604 words)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2020/06/26/%E6%A0%91%E7%9A%84%E8%A6%81%E7%82%B9%E5%BD%92%E7%BA%B3/">树的要点归纳</a></h1><div class="content"><a id="more"></a>
+<h1 id="1-树的基础知识点"><a href="#1-树的基础知识点" class="headerlink" title="1.树的基础知识点"></a>1.树的基础知识点</h1><h2 id="1-1-树的相关概念"><a href="#1-1-树的相关概念" class="headerlink" title="1.1 树的相关概念"></a>1.1 树的相关概念</h2><ul>
+<li><p>结点拥有的子树数称为节点的度（Degree）。</p>
+</li>
+<li><p>度为0的结点称为叶结点（Leaf）或终端结点；度不为0的结点称为非终端结点或分支节点。</p>
+</li>
+<li><p>除根节点之外，分支节点也称为内部结点。</p>
+</li>
+<li><p>树的度是树内部各结点的度的最大值。</p>
+</li>
+<li><p>如果将树中结点的各子树看成从左至右是有次序的，不能互换的，则称该树为有序树，否则称为无序树。</p>
+</li>
+<li><p>森林是$m(m \geq 0)$棵互不相交的树的集合。</p>
+</li>
+</ul>
+<h2 id="1-2-树的存储结构"><a href="#1-2-树的存储结构" class="headerlink" title="1.2 树的存储结构"></a>1.2 树的存储结构</h2><ul>
+<li><p>双亲表示法</p>
+</li>
+<li><p>孩子表示法</p>
+</li>
+<li><p>孩子兄弟表示法</p>
+</li>
+</ul>
+<h2 id="1-3-二叉树的相关概念"><a href="#1-3-二叉树的相关概念" class="headerlink" title="1.3 二叉树的相关概念"></a>1.3 二叉树的相关概念</h2><ul>
+<li><p>斜树：所有的结点都只有左子树的二叉树叫左斜树。所有结点都只有右子树的二叉树叫右斜树。这二者统称为斜树。</p>
+</li>
+<li><p>满二叉树：在一颗二叉树中，如果所有分支结点都存在左子树和右子树，并且所有叶子都在同一层上，这样的二叉树称为满二叉树。</p>
+</li>
+<li><p>完全二叉树：对一棵具有n个结点的二叉树按层序编号，如果编号为$i(1 \leq i \leq n)$的节点与同样深度的满二叉树中编号为i的结点在二叉树中位置完全相同，则这棵二叉树称为完全二叉树。</p>
+</li>
+</ul>
+<ul>
+<li>完全二叉树的特点：</li>
+</ul>
 <p>​    （1）叶子结点只能出现在最下两层。</p>
 <p>​    （2）最下层的叶子一定集中在左部连续位置。</p>
 <p>​    （3）倒数二层，若有叶子结点，一定都在右部连续位置。</p>
 <p>​    （4）如果结点度为1，则该结点只有左孩子，即不存在只有右子树的情况。</p>
 <p>​    （5）同样结点数的二叉树，完全二叉树的深度最小。</p>
-<h2 id="1-4-二叉树的存储结构"><a href="#1-4-二叉树的存储结构" class="headerlink" title="1.4 二叉树的存储结构"></a>1.4 二叉树的存储结构</h2><p>顺序存储结构</p>
-<p>二叉链表</p>
+<h2 id="1-4-二叉树的存储结构"><a href="#1-4-二叉树的存储结构" class="headerlink" title="1.4 二叉树的存储结构"></a>1.4 二叉树的存储结构</h2><ul>
+<li><p>顺序存储结构</p>
+</li>
+<li><p>二叉链表</p>
+</li>
+</ul>
 <h1 id="1-二叉树5个基本性质及灵活应用"><a href="#1-二叉树5个基本性质及灵活应用" class="headerlink" title="1.二叉树5个基本性质及灵活应用"></a>1.二叉树5个基本性质及灵活应用</h1><blockquote>
 <p><strong>二叉树的定义：二叉树(Binary Tree)是n(n≥0)个结点的有限集合，该集合或者为空集（称为空二叉树），或者由一个根节点和两棵互不相交的、分别称为根结点的左子树和右子树的二叉树组成。</strong></p>
 </blockquote>
@@ -37,13 +61,13 @@
 <h1 id="3-二叉树遍历（基础知识掌握）"><a href="#3-二叉树遍历（基础知识掌握）" class="headerlink" title="3.二叉树遍历（基础知识掌握）"></a>3.二叉树遍历（基础知识掌握）</h1><blockquote>
 <p><strong>二叉树的遍历（traversing binary tree）是指从根结点出发，按照某种次序访问二叉树中所有结点，使得每个结点被访问一次且仅被访问一次。</strong></p>
 </blockquote>
-<h2 id="3-1-前、中、后序遍历"><a href="#3-1-前、中、后序遍历" class="headerlink" title="3.1 前、中、后序遍历"></a>3.1 前、中、后序遍历</h2><h2 id="3-2-二叉树的建立"><a href="#3-2-二叉树的建立" class="headerlink" title="3.2 二叉树的建立"></a>3.2 二叉树的建立</h2><h2 id="3-3-线索二叉树"><a href="#3-3-线索二叉树" class="headerlink" title="3.3 线索二叉树"></a>3.3 线索二叉树</h2><p>对于一个有$n$个结点的二叉链表，每个结点有指向左右孩子的两个指针域，所以一共是$2n$个指针域。而$n$个结点的二叉树一共有$n-1$条分支线数，也就是说，其实是存在$2n-(n-1) =n+1$个空指针域。</p>
+<h2 id="3-1-前、中、后序遍历"><a href="#3-1-前、中、后序遍历" class="headerlink" title="3.1 前、中、后序遍历"></a>3.1 前、中、后序遍历</h2><h2 id="3-2-二叉树的建立"><a href="#3-2-二叉树的建立" class="headerlink" title="3.2 二叉树的建立"></a>3.2 二叉树的建立</h2><h2 id="3-3-线索二叉树"><a href="#3-3-线索二叉树" class="headerlink" title="3.3 线索二叉树"></a>3.3 线索二叉树</h2><p>3.3.1 对于一个有$n$个结点的二叉链表，每个结点有指向左右孩子的两个指针域，所以一共是$2n$个指针域。而$n$个结点的二叉树一共有$n-1$条分支线数，也就是说，其实是存在$2n-(n-1) =n+1$个空指针域。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">       A</span><br><span class="line">     &#x2F;   \</span><br><span class="line">    B     C</span><br><span class="line">   &#x2F; \   &#x2F; \</span><br><span class="line">  D   E F   G</span><br><span class="line"> &#x2F; \ &#x2F;</span><br><span class="line">H  I J </span><br><span class="line">     图3-1</span><br></pre></td></tr></table></figure>
-<p>如上图，中序遍历得到HDIBJEAFCG这样的字符，可以知道，结点I的前驱是D，后继是B，结点F的前驱是A，后继是C。</p>
-<p>指向前驱和后继的指针称为线索，加上线索的二叉链表称为线索链表，相应的二叉树就称为线索二叉树(Threaded Binary Tree)。</p>
-<p>其实线索二叉树，等于是把一棵二叉树转变成了一个双向链表，这样对我们的插入删除结点都带来了方便。</p>
-<p>对二叉树以某种次序遍历使其变为线索二叉树的过程称做是线索化。</p>
-<p>在每个节点再增设两个标志域ltag和rtag，只存放0或1数字的布尔型变量，其占用的内存空间要小于像lchild和rchild的指针变量。结点结构如下：</p>
+<p>3.3.2 如上图，中序遍历得到HDIBJEAFCG这样的字符，可以知道，结点I的前驱是D，后继是B，结点F的前驱是A，后继是C。</p>
+<p>3.3.3 指向前驱和后继的指针称为线索，加上线索的二叉链表称为线索链表，相应的二叉树就称为线索二叉树(Threaded Binary Tree)。</p>
+<p>3.3.4 其实线索二叉树，等于是把一棵二叉树转变成了一个双向链表，这样对我们的插入删除结点都带来了方便。</p>
+<p>3.3.5 对二叉树以某种次序遍历使其变为线索二叉树的过程称做是线索化。</p>
+<p>3.3.6 在每个节点再增设两个标志域ltag和rtag，只存放0或1数字的布尔型变量，其占用的内存空间要小于像lchild和rchild的指针变量。结点结构如下：</p>
 <div class="table-container">
 <table>
 <thead>
