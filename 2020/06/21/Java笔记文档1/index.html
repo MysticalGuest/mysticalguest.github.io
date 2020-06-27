@@ -7,19 +7,12 @@
 
 <p><a href="https://github.com/MysticalGuest/OPP-Java" target="_blank" rel="github"><h4 align="center">Source Code</h4></a></p>
 <!-- [**Source Code**](https://github.com/MysticalGuest/OPP-Java) -->
-
 <a id="more"></a>
-
 <hr>
 <h2 id="解决的问题"><a href="#解决的问题" class="headerlink" title="解决的问题"></a>解决的问题</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">在CMD上运行java文件时出现错误：找不到或者无法加载主类的问题。</span><br></pre></td></tr></table></figure>
-
 <h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><!-- <blockquote> -->
-  <strong>
-    <big style="color:blue">1. 首先写一个测试文件</big>
-  </strong>
-<!-- </blockquote> -->
-
-
+<p>  <strong><br>    <big style="color:blue">1. 首先写一个测试文件</big>
+  </strong><br><!-- </blockquote> --></p>
   <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">TestDemo</span> </span>&#123;</span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String args[])</span> </span>&#123;</span><br><span class="line">    System.out.println(<span class="string">"Run successfully!"</span>);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>
 <strong>
@@ -47,7 +40,9 @@
 </p>
 在编译成字节码文件时，是没有问题的。也就是说，在当前文件目录下，可以成class文件。好的，继续往下进行。
 
-<p>3.2 通过命令：<br><code>java TestDemo</code><br>尝试将其运行，并打印输出结果。</p>
+3.2 通过命令：
+`java TestDemo`
+尝试将其运行，并打印输出结果。
 <p align="center">
     <img src="http://pic.yupoo.com/mysteryguest/e7ed8660/a120008e.png" alt="JAVA">
 </p>
@@ -61,7 +56,8 @@
 方法如下：</br>
 4.1 通过命令：
 
-<p><code>javac -d . TestDemo.java</code><br>将目标文件编译成class文件。</p>
+`javac -d . TestDemo.java`
+将目标文件编译成class文件。
 <p align="center">
     <img src="http://pic.yupoo.com/mysteryguest/61137328/78070dbe.png" alt="JAVA">
 </p>
@@ -72,13 +68,17 @@
 </blockquote>
 4.2 通过命令：
 
-<p><code>java CourseExercise/TestDemo</code><br>或者<br><code>java CourseExercise.TestDemo</code><br>来运行程序。</p>
+`java CourseExercise/TestDemo`
+或者
+`java CourseExercise.TestDemo`
+来运行程序。
 <p align="center">
     <img src="http://pic.yupoo.com/mysteryguest/5668fdf1/1edff92a.png" alt="JAVA">
 </p>
 4.3 通过命令：
 
-<p><code>javap -verbose TestDemo.class</code><br>将class文件中的字节码转换为字节码指令。</p>
+`javap -verbose TestDemo.class`
+将class文件中的字节码转换为字节码指令。
 <p align="center">
     <img src="http://pic.yupoo.com/mysteryguest/f79d5857/211659ad.png" alt="JAVA">
 </p>
