@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2020/06/30/AdvancedOS/</loc>
+    
+    <lastmod>2020-06-30T03:55:47.312Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2020/06/30/TypeScript/</loc>
     
     <lastmod>2020-06-30T00:59:31.488Z</lastmod>
