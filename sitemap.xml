@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2020/06/30/TypeScript/</loc>
+    
+    <lastmod>2020-06-30T00:59:31.488Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2020/06/28/Electron+vue-cli3/</loc>
     
     <lastmod>2020-06-29T14:08:30.225Z</lastmod>
