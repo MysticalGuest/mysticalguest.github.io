@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-07-17T11:57:09.928Z</updated>
+  <updated>2020-07-17T12:03:31.539Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,15 +21,16 @@
     <link href="http://yoursite.com/2020/07/17/DispatchandDeadlock/"/>
     <id>http://yoursite.com/2020/07/17/DispatchandDeadlock/</id>
     <published>2020-07-17T11:34:04.745Z</published>
-    <updated>2020-07-17T11:57:09.928Z</updated>
+    <updated>2020-07-17T12:03:31.539Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="1-处理机调度"><a href="#1-处理机调度" class="headerlink" title="1.处理机调度"></a>1.处理机调度</h1><h2 id="1-1-调度类型"><a href="#1-1-调度类型" class="headerlink" title="1.1 调度类型"></a>1.1 调度类型</h2><p><img src="https://gitee.com/mysteryguest/ObjectStorage/raw/master/Course/OS/DispatchDeadlock/DispatchType.PNG" alt=""></p><h2 id="1-2-三类调度"><a href="#1-2-三类调度" class="headerlink" title="1.2 三类调度"></a>1.2 三类调度</h2><ul><li>长程调度——作业调度</li></ul><p><i class="fa fa-angle-double-right" aria-hidden="true"></i>决定哪个作业可以进入系统</p><ul><li>中程调度——内存调度</li></ul><p><i class="fa fa-angle-double-right" aria-hidden="true"></i>决定将哪个（些）进程调入内存</p><p>换入：取决于管理系统并发度的需求；</p><p>换出：进程的存储需求。</p><ul><li>短程调度——进程调度</li></ul><p>决定哪个进程将获得CPU</p><ul><li>长程调度程序执行频率较低；</li><li>中程调度程序执行频率稍高；</li><li>短程调度程序执行频率最高。</li></ul>]]></content>
+    <content type="html"><![CDATA[<a id="more"></a><h1 id="1-处理机调度"><a href="#1-处理机调度" class="headerlink" title="1.处理机调度"></a>1.处理机调度</h1><h2 id="1-1-调度类型"><a href="#1-1-调度类型" class="headerlink" title="1.1 调度类型"></a>1.1 调度类型</h2><p><img src="https://gitee.com/mysteryguest/ObjectStorage/raw/master/Course/OS/DispatchDeadlock/DispatchType.PNG" alt=""></p><h2 id="1-2-三类调度"><a href="#1-2-三类调度" class="headerlink" title="1.2 三类调度"></a>1.2 三类调度</h2><ul><li><p>长程调度——作业调度</p><p><i class="fa fa-angle-double-right" aria-hidden="true"></i>决定哪个作业可以进入系统</p></li><li><p>中程调度——内存调度</p><p><i class="fa fa-angle-double-right" aria-hidden="true"></i>决定将哪个（些）进程调入内存</p><p>​    换入：取决于管理系统并发度的需求；</p><p>​    换出：进程的存储需求。</p></li><li><p>短程调度——进程调度</p></li></ul><p>决定哪个进程将获得CPU</p><ul><li>长程调度程序执行频率较低；</li><li>中程调度程序执行频率稍高；</li><li>短程调度程序执行频率最高。</li></ul>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;1-处理机调度&quot;&gt;&lt;a href=&quot;#1-处理机调度&quot; class=&quot;headerlink&quot; title=&quot;1.处理机调度&quot;&gt;&lt;/a&gt;1.处理机调度&lt;/h1&gt;&lt;h2 id=&quot;1-1-调度类型&quot;&gt;&lt;a href=&quot;#1-1-调度类型&quot; class=&quot;headerli
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h1 id=&quot;1-处理机调度&quot;&gt;&lt;a href=&quot;#1-处理机调度&quot; class=&quot;headerlink&quot; title=&quot;1.处理机调度&quot;&gt;&lt;/a&gt;1.处理机调度&lt;/h1&gt;&lt;h2 id=&quot;1-1-调度类型&quot;&gt;&lt;a href=&quot;#1-1-调度类
       
     
     </summary>
