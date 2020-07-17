@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/friend/index.html</loc>
+    <loc>http://yoursite.com/about/index.html</loc>
     
-    <lastmod>2020-07-17T09:24:46.459Z</lastmod>
+    <lastmod>2020-07-17T11:58:42.865Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/about/index.html</loc>
+    <loc>http://yoursite.com/2020/07/17/DispatchandDeadlock/</loc>
     
-    <lastmod>2020-07-17T09:17:58.400Z</lastmod>
+    <lastmod>2020-07-17T11:57:09.928Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/friend/index.html</loc>
+    
+    <lastmod>2020-07-17T09:24:46.459Z</lastmod>
     
   </url>
   
@@ -72,7 +79,7 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2020/06/30/AdvancedOS/</loc>
+    <loc>http://yoursite.com/2020/06/30/DistributedSystem/</loc>
     
     <lastmod>2020-07-13T00:50:28.633Z</lastmod>
     
