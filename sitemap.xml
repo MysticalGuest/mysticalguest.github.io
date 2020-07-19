@@ -4,7 +4,14 @@
   <url>
     <loc>http://yoursite.com/about/index.html</loc>
     
-    <lastmod>2020-07-19T13:36:49.206Z</lastmod>
+    <lastmod>2020-07-19T13:40:08.167Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2020/06/30/DistributedSystem/</loc>
+    
+    <lastmod>2020-07-19T13:39:36.060Z</lastmod>
     
   </url>
   
@@ -82,13 +89,6 @@
     <loc>http://yoursite.com/2020/06/21/ICARUS%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/</loc>
     
     <lastmod>2020-07-13T01:05:46.894Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2020/06/30/DistributedSystem/</loc>
-    
-    <lastmod>2020-07-13T00:50:28.633Z</lastmod>
     
   </url>
   
