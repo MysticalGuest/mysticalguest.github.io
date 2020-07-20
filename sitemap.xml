@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2020/07/17/OS/DispatchandDeadlock/</loc>
+    
+    <lastmod>2020-07-20T07:26:15.219Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/about/index.html</loc>
     
     <lastmod>2020-07-19T14:10:36.081Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>http://yoursite.com/2020/06/30/OS/DistributedSystem/</loc>
     
     <lastmod>2020-07-19T13:39:36.060Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2020/07/17/OS/DispatchandDeadlock/</loc>
-    
-    <lastmod>2020-07-19T12:15:41.715Z</lastmod>
     
   </url>
   
