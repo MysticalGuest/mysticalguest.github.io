@@ -2,16 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://mysticalguest.github.io/2020/08/09/Spring/SpringBootWeb/</loc>
+    <loc>https://mysticalguest.github.io/2020/08/15/Spring/SpringBootError/</loc>
     
-    <lastmod>2020-08-14T10:09:43.455Z</lastmod>
+    <lastmod>2020-08-15T16:05:44.472Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://mysticalguest.github.io/2020/08/14/Spring/SpringBootCRUD/</loc>
     
-    <lastmod>2020-08-14T10:06:36.451Z</lastmod>
+    <lastmod>2020-08-15T13:54:36.354Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://mysticalguest.github.io/2020/08/09/Spring/SpringBootWeb/</loc>
+    
+    <lastmod>2020-08-14T13:50:03.794Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://mysticalguest.github.io/2020/08/07/Spring/SpringBootStart/</loc>
+    
+    <lastmod>2020-08-14T13:48:34.556Z</lastmod>
     
   </url>
   
@@ -26,13 +40,6 @@
     <loc>https://mysticalguest.github.io/2020/08/07/Spring/SpringBootConfig/</loc>
     
     <lastmod>2020-08-08T15:43:08.192Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://mysticalguest.github.io/2020/08/07/Spring/SpringBootStart/</loc>
-    
-    <lastmod>2020-08-08T07:06:22.967Z</lastmod>
     
   </url>
   
