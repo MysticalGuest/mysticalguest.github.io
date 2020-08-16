@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://mysticalguest.github.io/2020/08/14/Spring/SpringBootCRUD/</loc>
+    
+    <lastmod>2020-08-16T07:38:47.394Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://mysticalguest.github.io/2020/08/16/Spring/SpringBootServlet/</loc>
     
-    <lastmod>2020-08-16T07:24:42.354Z</lastmod>
+    <lastmod>2020-08-16T07:34:34.144Z</lastmod>
     
   </url>
   
@@ -12,13 +19,6 @@
     <loc>https://mysticalguest.github.io/2020/08/15/Spring/SpringBootError/</loc>
     
     <lastmod>2020-08-16T04:25:29.713Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://mysticalguest.github.io/2020/08/14/Spring/SpringBootCRUD/</loc>
-    
-    <lastmod>2020-08-15T13:54:36.354Z</lastmod>
     
   </url>
   
