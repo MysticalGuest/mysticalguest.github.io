@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://mysticalguest.github.io/2020/08/18/CSharp/CSharpReview/</loc>
+    
+    <lastmod>2020-08-22T04:26:22.002Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://mysticalguest.github.io/2020/08/18/Spring/SpringBootDocker/</loc>
     
     <lastmod>2020-08-19T10:12:26.411Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>https://mysticalguest.github.io/2020/08/18/Spring/SpringBootDataAccess/</loc>
     
     <lastmod>2020-08-19T10:07:06.210Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://mysticalguest.github.io/2020/08/18/CSharp/CSharpReview/</loc>
-    
-    <lastmod>2020-08-19T10:04:24.478Z</lastmod>
     
   </url>
   
