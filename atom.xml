@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://mysticalguest.github.io/"/>
-  <updated>2020-08-28T15:30:11.084Z</updated>
+  <updated>2020-08-28T15:35:31.893Z</updated>
   <id>https://mysticalguest.github.io/</id>
   
   <author>
@@ -21,16 +21,13 @@
     <link href="https://mysticalguest.github.io/2020/08/28/Java/JVM%E7%AE%80%E4%BB%8B/"/>
     <id>https://mysticalguest.github.io/2020/08/28/Java/JVM%E7%AE%80%E4%BB%8B/</id>
     <published>2020-08-28T14:49:08.862Z</published>
-    <updated>2020-08-28T15:30:11.084Z</updated>
+    <updated>2020-08-28T15:35:31.893Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="1、前言"><a href="#1、前言" class="headerlink" title="1、前言"></a>1、前言</h2><h3 id="1-1-你是否也遇到过这些问题"><a href="#1-1-你是否也遇到过这些问题" class="headerlink" title="1.1 你是否也遇到过这些问题?"></a>1.1 你是否也遇到过这些问题?</h3><ul><li><p>运行着的线上系统突然卡死，系统无法访问，甚至直接OOM（Out Of Memory）!</p></li><li><p>想解决线上 JVM GC（ JVM垃圾回收 ）问题，但却无从下手。</p></li><li><p>新项目上线，对各种JVM参数设置一脸茫然，直接默认吧，然后就错了。</p></li><li><p>每次面试之前都要重新背一遍J的一些原理概念性的东西，然而面试官却经常问你在实际项目中如何调优JVM参数，如何解决GC、OOM等问题，一脸懵逼。</p></li></ul><p><img src="https://gitee.com/mysteryguest/ObjectStorage/raw/master/Java/JVM/JVM.PNG" alt="JVM"></p><p>我们通常都是学习基础的技能，在此基础上学习更复杂的功能。</p><h3 id="1-2-开发人员如何看待上层框架"><a href="#1-2-开发人员如何看待上层框架" class="headerlink" title="1.2 开发人员如何看待上层框架"></a>1.2 开发人员如何看待上层框架</h3><ul><li><p>一些有一定工作经验的开发人员，打心眼儿里觉得SSM、微服务等上层技术才是重点，基础技术并不重要，这其实是一种本末倒置的“病态“。</p></li><li><p>如果我们把核心类库的 API 比做数学公式的话，那么 Java 虚拟机的知识就好比公式的推导过程</p></li></ul><p><img src="https://gitee.com/mysteryguest/ObjectStorage/raw/master/Java/JVM/Composition-principle.PNG" alt=""></p><blockquote><p>计算机系统体系对我们来说越来越远，在不了解底层实现方式的前提下，通过高级语言很容易编写程序代码。但事实上计算机并不认识高级语言。</p></blockquote><h3 id="1-3-架构师每天都在思考什么"><a href="#1-3-架构师每天都在思考什么" class="headerlink" title="1.3 架构师每天都在思考什么?"></a>1.3 架构师每天都在思考什么?</h3><ul><li><p>应该如何让我的系统更快?</p></li><li><p>如何避免系统出现瓶颈?</p></li></ul><h3 id="1-4-知乎上有条帖子：应该如何看招聘信息，直通年薪50万"><a href="#1-4-知乎上有条帖子：应该如何看招聘信息，直通年薪50万" class="headerlink" title="1.4 知乎上有条帖子：应该如何看招聘信息，直通年薪50万+?"></a>1.4 知乎上有条帖子：应该如何看招聘信息，直通年薪50万+?</h3><ul><li><p>参与现有系统的性能优化，重构，保证平台性能和稳定性</p></li><li><p>根据业务场景和需求，决定技术方向，做技术选型</p></li><li><p>能够独立架构和设计海量数据下高并发分布式解决方案，满足功能和非功能需求</p></li><li><p>解决各类潜在系统风险，核心功能的架构与代码编写</p></li><li>分析系统瓶颈，解决各种疑难杂症,性能调优等</li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="1、前言"><a href="#1、前言" class="headerlink" title="1、前言"></a>1、前言</h2><h3 id="1-1-你是否也遇到过这些问题"><a href="#1-1-你是否也遇到过这些问题" class="headerlink" title="1.1 你是否也遇到过这些问题?"></a>1.1 你是否也遇到过这些问题?</h3><a id="more"></a><ul><li><p>运行着的线上系统突然卡死，系统无法访问，甚至直接OOM（Out Of Memory）!</p></li><li><p>想解决线上 JVM GC（ JVM垃圾回收 ）问题，但却无从下手。</p></li><li><p>新项目上线，对各种JVM参数设置一脸茫然，直接默认吧，然后就错了。</p></li><li><p>每次面试之前都要重新背一遍J的一些原理概念性的东西，然而面试官却经常问你在实际项目中如何调优JVM参数，如何解决GC、OOM等问题，一脸懵逼。</p></li></ul><p><img src="https://gitee.com/mysteryguest/ObjectStorage/raw/master/Java/JVM/JVM.PNG" alt="JVM"></p><p>我们通常都是学习基础的技能，在此基础上学习更复杂的功能。</p><h3 id="1-2-开发人员如何看待上层框架"><a href="#1-2-开发人员如何看待上层框架" class="headerlink" title="1.2 开发人员如何看待上层框架"></a>1.2 开发人员如何看待上层框架</h3><ul><li><p>一些有一定工作经验的开发人员，打心眼儿里觉得SSM、微服务等上层技术才是重点，基础技术并不重要，这其实是一种本末倒置的“病态“。</p></li><li><p>如果我们把核心类库的 API 比做数学公式的话，那么 Java 虚拟机的知识就好比公式的推导过程</p></li></ul><p><img src="https://gitee.com/mysteryguest/ObjectStorage/raw/master/Java/JVM/Composition-principle.PNG" alt=""></p><blockquote><p>计算机系统体系对我们来说越来越远，在不了解底层实现方式的前提下，通过高级语言很容易编写程序代码。但事实上计算机并不认识高级语言。</p></blockquote><h3 id="1-3-架构师每天都在思考什么"><a href="#1-3-架构师每天都在思考什么" class="headerlink" title="1.3 架构师每天都在思考什么?"></a>1.3 架构师每天都在思考什么?</h3><ul><li><p>应该如何让我的系统更快?</p></li><li><p>如何避免系统出现瓶颈?</p></li></ul><h3 id="1-4-知乎上有条帖子：应该如何看招聘信息，直通年薪50万"><a href="#1-4-知乎上有条帖子：应该如何看招聘信息，直通年薪50万" class="headerlink" title="1.4 知乎上有条帖子：应该如何看招聘信息，直通年薪50万+?"></a>1.4 知乎上有条帖子：应该如何看招聘信息，直通年薪50万+?</h3><ul><li><p>参与现有系统的性能优化，重构，保证平台性能和稳定性</p></li><li><p>根据业务场景和需求，决定技术方向，做技术选型</p></li><li><p>能够独立架构和设计海量数据下高并发分布式解决方案，满足功能和非功能需求</p></li><li><p>解决各类潜在系统风险，核心功能的架构与代码编写</p></li><li>分析系统瓶颈，解决各种疑难杂症,性能调优等</li></ul>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h2 id=&quot;1、前言&quot;&gt;&lt;a href=&quot;#1、前言&quot; class=&quot;headerlink&quot; title=&quot;1、前言&quot;&gt;&lt;/a&gt;1、前言&lt;/h2&gt;&lt;h3 id=&quot;1-1-你是否也遇到过这些问题&quot;&gt;&lt;a href=&quot;#1-1-你是否也遇到过这些问题&quot; class=&quot;header
-      
+      &lt;h2 id=&quot;1、前言&quot;&gt;&lt;a href=&quot;#1、前言&quot; class=&quot;headerlink&quot; title=&quot;1、前言&quot;&gt;&lt;/a&gt;1、前言&lt;/h2&gt;&lt;h3 id=&quot;1-1-你是否也遇到过这些问题&quot;&gt;&lt;a href=&quot;#1-1-你是否也遇到过这些问题&quot; class=&quot;headerlink&quot; title=&quot;1.1 你是否也遇到过这些问题?&quot;&gt;&lt;/a&gt;1.1 你是否也遇到过这些问题?&lt;/h3&gt;
     
     </summary>
     
