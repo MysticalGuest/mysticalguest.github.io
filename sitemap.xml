@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://mysticalguest.github.io/2020/08/28/Spring/AdvancedSpringBootCache/</loc>
+    
+    <lastmod>2020-08-28T10:17:53.552Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://mysticalguest.github.io/2020/08/07/Spring/SpringBootConfig/</loc>
+    
+    <lastmod>2020-08-28T10:09:53.218Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://mysticalguest.github.io/2020/08/28/Spring/SpringBootCustomStarters/</loc>
     
     <lastmod>2020-08-28T03:34:31.859Z</lastmod>
@@ -33,13 +47,6 @@
     <loc>https://mysticalguest.github.io/2020/08/07/Spring/SpringBootStart/</loc>
     
     <lastmod>2020-08-27T16:01:31.973Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://mysticalguest.github.io/2020/08/07/Spring/SpringBootConfig/</loc>
-    
-    <lastmod>2020-08-27T15:59:47.382Z</lastmod>
     
   </url>
   
