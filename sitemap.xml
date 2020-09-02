@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://mysticalguest.github.io/2020/09/02/Redis/NoSQL/</loc>
+    
+    <lastmod>2020-09-02T03:07:28.593Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://mysticalguest.github.io/2020/08/14/Spring/SpringBootCRUD/</loc>
     
     <lastmod>2020-09-01T14:07:52.727Z</lastmod>
