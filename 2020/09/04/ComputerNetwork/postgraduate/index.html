@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="zh"><head><meta charset="utf-8"><meta name="generator" content="Hexo 4.2.1"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>计算机网络课程复习 - Longing(MysteryGuest的博客)</title><meta description="考查目标：  掌握计算机网络的基本概念、基本原理和基本方法。 掌握计算机网络的体系结构和典型网络协议，了解典型网络设备的组成和特点，理解典型网络设备的工作原理。 能够运用计算机网络基本概念、基本原理和基本方法进行网络系统分析、设计和应用。  以西北工业大学801计算机专业基础为考纲"><meta property="og:type" content="blog"><meta property="og:title" content="计算机网络课程复习"><meta property="og:url" content="https://mysticalguest.github.io/"><meta property="og:site_name" content="Longing(MysteryGuest的博客)"><meta property="og:description" content="考查目标：  掌握计算机网络的基本概念、基本原理和基本方法。 掌握计算机网络的体系结构和典型网络协议，了解典型网络设备的组成和特点，理解典型网络设备的工作原理。 能够运用计算机网络基本概念、基本原理和基本方法进行网络系统分析、设计和应用。  以西北工业大学801计算机专业基础为考纲"><meta property="og:locale" content="zh_CN"><meta property="og:image" content="https://gitee.com/mysteryguest/ObjectStorage/raw/master/computernetwork/virtual_reality.jpg"><meta property="article:published_time" content="2020-09-04T14:18:36.387Z"><meta property="article:modified_time" content="2020-09-05T04:08:15.144Z"><meta property="article:author" content="MysticalGuest"><meta property="article:tag" content="Theory"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="https://gitee.com/mysteryguest/ObjectStorage/raw/master/computernetwork/virtual_reality.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://mysticalguest.github.io/2020/09/04/ComputerNetwork/postgraduate/"},"headline":"MysteryGuest","image":["https://gitee.com/mysteryguest/ObjectStorage/raw/master/computernetwork/virtual_reality.jpg"],"datePublished":"2020-09-04T14:18:36.387Z","dateModified":"2020-09-05T04:08:15.144Z","author":{"@type":"Person","name":"MysticalGuest"},"description":"java,技术分享,后端开发,算法,spring"}</script><link rel="canonical" href="https://mysticalguest.github.io/2020/09/04/ComputerNetwork/postgraduate/"><link rel="alternative" href="/atom.xml" title="Longing(MysteryGuest的博客)" type="application/atom+xml"><link rel="icon" href="/img/bird.ico"><link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/font-awesome/5.12.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.loli.net/css2?family=Oxanium:wght@300;400;600&amp;family=Roboto+Mono"><link rel="stylesheet" href="/css/cyberpunk.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><script src="/js/click.js"></script><script src="/js/anime.min.js"></script><canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;"></canvas><script src="/js/snow.js"></script><!--!--><script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" defer></script><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css"><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script></head><body class="is-3-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/mylogo.svg" alt="Longing(MysteryGuest的博客)" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">首页</a><a class="navbar-item" href="/archives">归档</a><a class="navbar-item" href="/categories">分类</a><a class="navbar-item" href="/tags">标签</a><a class="navbar-item" href="/friend">友链</a><a class="navbar-item" href="/about">关于</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Visit on GitHub" href="https://github.com/MysticalGuest"><i class="fab fa-github"></i></a><a class="navbar-item is-hidden-tablet catalogue" title="目录" href="javascript:;"><i class="fas fa-list-ul"></i></a><a class="navbar-item search" title="搜索" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main"><div class="card"><div class="card-image"><span class="image is-7by3"><img class="thumbnail" src="https://gitee.com/mysteryguest/ObjectStorage/raw/master/computernetwork/virtual_reality.jpg" alt="计算机网络课程复习"></span></div><article class="card-content article" role="article"><div class="article-meta size-small is-uppercase level is-mobile"><div class="level-left"><time class="level-item" dateTime="2020-09-04T14:18:36.387Z" title="2020-09-04T14:18:36.387Z">2020-09-04</time><span class="level-item"><a class="link-muted" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">计算机网络</a></span><span class="level-item">16 分钟 读完 (大约 2368 个字)</span><span class="level-item" id="busuanzi_container_page_pv"><i class="far fa-eye"></i>&nbsp;&nbsp;<span id="busuanzi_value_page_pv">0</span>次访问</span></div></div><h1 class="title is-3 is-size-4-mobile">计算机网络课程复习</h1><div class="content"><blockquote>
+<html lang="zh"><head><meta charset="utf-8"><meta name="generator" content="Hexo 4.2.1"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>计算机网络课程复习 - Longing(MysteryGuest的博客)</title><meta description="考查目标：  掌握计算机网络的基本概念、基本原理和基本方法。 掌握计算机网络的体系结构和典型网络协议，了解典型网络设备的组成和特点，理解典型网络设备的工作原理。 能够运用计算机网络基本概念、基本原理和基本方法进行网络系统分析、设计和应用。  以西北工业大学801计算机专业基础为考纲"><meta property="og:type" content="blog"><meta property="og:title" content="计算机网络课程复习"><meta property="og:url" content="https://mysticalguest.github.io/"><meta property="og:site_name" content="Longing(MysteryGuest的博客)"><meta property="og:description" content="考查目标：  掌握计算机网络的基本概念、基本原理和基本方法。 掌握计算机网络的体系结构和典型网络协议，了解典型网络设备的组成和特点，理解典型网络设备的工作原理。 能够运用计算机网络基本概念、基本原理和基本方法进行网络系统分析、设计和应用。  以西北工业大学801计算机专业基础为考纲"><meta property="og:locale" content="zh_CN"><meta property="og:image" content="https://gitee.com/mysteryguest/ObjectStorage/raw/master/computernetwork/virtual_reality.jpg"><meta property="article:published_time" content="2020-09-04T14:18:36.387Z"><meta property="article:modified_time" content="2020-09-05T15:03:42.836Z"><meta property="article:author" content="MysticalGuest"><meta property="article:tag" content="Theory"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="https://gitee.com/mysteryguest/ObjectStorage/raw/master/computernetwork/virtual_reality.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://mysticalguest.github.io/2020/09/04/ComputerNetwork/postgraduate/"},"headline":"MysteryGuest","image":["https://gitee.com/mysteryguest/ObjectStorage/raw/master/computernetwork/virtual_reality.jpg"],"datePublished":"2020-09-04T14:18:36.387Z","dateModified":"2020-09-05T15:03:42.836Z","author":{"@type":"Person","name":"MysticalGuest"},"description":"java,技术分享,后端开发,算法,spring"}</script><link rel="canonical" href="https://mysticalguest.github.io/2020/09/04/ComputerNetwork/postgraduate/"><link rel="alternative" href="/atom.xml" title="Longing(MysteryGuest的博客)" type="application/atom+xml"><link rel="icon" href="/img/bird.ico"><link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/font-awesome/5.12.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.loli.net/css2?family=Oxanium:wght@300;400;600&amp;family=Roboto+Mono"><link rel="stylesheet" href="/css/cyberpunk.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><script src="/js/click.js"></script><script src="/js/anime.min.js"></script><canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;"></canvas><script src="/js/snow.js"></script><!--!--><script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" defer></script><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css"><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script></head><body class="is-3-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/mylogo.svg" alt="Longing(MysteryGuest的博客)" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">首页</a><a class="navbar-item" href="/archives">归档</a><a class="navbar-item" href="/categories">分类</a><a class="navbar-item" href="/tags">标签</a><a class="navbar-item" href="/friend">友链</a><a class="navbar-item" href="/about">关于</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Visit on GitHub" href="https://github.com/MysticalGuest"><i class="fab fa-github"></i></a><a class="navbar-item is-hidden-tablet catalogue" title="目录" href="javascript:;"><i class="fas fa-list-ul"></i></a><a class="navbar-item search" title="搜索" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main"><div class="card"><div class="card-image"><span class="image is-7by3"><img class="thumbnail" src="https://gitee.com/mysteryguest/ObjectStorage/raw/master/computernetwork/virtual_reality.jpg" alt="计算机网络课程复习"></span></div><article class="card-content article" role="article"><div class="article-meta size-small is-uppercase level is-mobile"><div class="level-left"><time class="level-item" dateTime="2020-09-04T14:18:36.387Z" title="2020-09-04T14:18:36.387Z">2020-09-04</time><span class="level-item"><a class="link-muted" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">计算机网络</a></span><span class="level-item">25 分钟 读完 (大约 3756 个字)</span><span class="level-item" id="busuanzi_container_page_pv"><i class="far fa-eye"></i>&nbsp;&nbsp;<span id="busuanzi_value_page_pv">0</span>次访问</span></div></div><h1 class="title is-3 is-size-4-mobile">计算机网络课程复习</h1><div class="content"><blockquote>
 <p>考查目标：</p>
 <ol>
 <li>掌握计算机网络的基本概念、基本原理和基本方法。</li>
@@ -90,12 +90,11 @@
 </table>
 </div>
 <ol>
-<li><p>计算机网络的分类</p>
+<li>计算机网络的分类</li>
+</ol>
 <ul>
 <li>计算机网络的分类方法有多种，其中最主要的方法是根据<strong>覆盖范围</strong>进行分类的方法。</li>
 </ul>
-</li>
-</ol>
 <div class="table-container">
 <table>
 <thead>
@@ -118,7 +117,7 @@
 <tr>
 <td style="text-align:center">城域网(Metropolitan Area Network; MAN)</td>
 <td>10~100km</td>
-<td>早期以光纤为传输介质。宽带城域网以IP为基础，通过计算机网络、广播电视网、电信网三网融合</td>
+<td>早期以光纤为传输介质。宽带城域网以IP为基础，通过<strong>计算机网络、广播电视网、电信网三网融合</strong></td>
 <td>完善的光纤传输网是基础。传统电信、有线电视与IP业务的融合成为宽带城域网的核心业务。高端路由器和多层交换机是核心设备。扩大宽带接入规模与服务质量是应用关键</td>
 <td>提供普通家庭用户和集团用户高速接入因特网、局域网互连以及VPN/VPDN等业务</td>
 </tr>
@@ -145,13 +144,33 @@
 <li><p>第一阶段：计算机网络技术与理论准备阶段（20世纪50年代）</p>
 <blockquote>
 <p>数据通信技术日趋成熟，为计算机网络的形成奠定技术基础</p>
+<p>分组交换概念的提出为计算机网络的研究奠定了理论基础</p>
 </blockquote>
 </li>
-<li><p>第二阶段：计算机网络的形成</p>
+<li><p>第二阶段：计算机网络的形成（20世纪60年代）</p>
+<blockquote>
+<p>ARPANET的成功运行证明了分组交换理论的正确性</p>
+<p>TCP/IP协议的广泛应用为更大规模的网络互联奠定了坚实的基础</p>
+<p>E-mail、FTP、TELNET、BBS等应用展现出网络技术广阔的应用前景</p>
+</blockquote>
 </li>
-<li><p>第三阶段：网络体系结构的研究</p>
+<li><p>第三阶段：网络体系结构的研究（20世纪70年代中期）</p>
+<blockquote>
+<p>网络体系结构与协议的标准化研究，对更大规模的网络互联起到推动作用</p>
+<p>国际标准化组织(ISO)在推动“开放系统互连(Open System Interconnection, OSI)参考模型”与网络协议标准化研究方面做了大量工作</p>
+<p>OSI参考模型的研究对网络理论体系的形成与发展，以及在网络协议标准化研究方面起到了重要的推动作用</p>
+<p>TCP/IP经受了市场和用户的检验，吸引了大量的投资，推动了Internet应用的发展，成为业界标准</p>
+</blockquote>
 </li>
 <li><p>第四阶段：Internet应用、无线网络与网络安全技术研究的发展</p>
+<blockquote>
+<p>Internet作为全球性的国际网与大型信息系统</p>
+<p>Internet大规模接入推动了接入技术的发展</p>
+<p>对等(Peer-to-Peer, P2P)网络技术的研究，使得“即时通信”等新的网络应用不断涌现</p>
+<p>WPAN、WLAN与WMAN技术日益成熟，并应用阶段。无线自组网、无线传感器网络受到高度重视</p>
+<p>物联网技术形成与发展</p>
+<p>网络安全技术快速发展</p>
+</blockquote>
 </li>
 </ul>
 </li>
@@ -159,23 +178,87 @@
 </li>
 </ol>
 <h3 id="1-3-计算机网络体系结构与参考模型"><a href="#1-3-计算机网络体系结构与参考模型" class="headerlink" title="1.3 计算机网络体系结构与参考模型"></a>1.3 计算机网络体系结构与参考模型</h3><ol>
-<li><p>计算机网络分层结构;</p>
+<li><p>计算机网络分层结构</p>
+<ul>
+<li>OSI体系结构：应用层，表示层，会话层，运输层，网络层，数据链路层，物理层</li>
+<li>TCP/IP体系结构：应用层，运输层（TCP或UDP），网际层（IP），网络接口层</li>
+<li>五层协议体系结构：应用层，运输层，网络层，数据链路层，物理层</li>
+</ul>
 </li>
-<li><p>计算机网络协议、接口、服务等概念;</p>
+<li><p>计算机网络协议、接口、服务等概念</p>
+<ul>
+<li><p>协议就是一组<strong>控制数据交互</strong>过程的通信规则，这些为网络数据交换制定的通信规则、约定于标准被称为“网络协议”</p>
+<blockquote>
+<p>网络协议三要素：</p>
+<p>（1）语义：解释控制信息每个部分的意义</p>
+<p>（2）语法：语法是用户数据与控制信息的结构与格式，以及数据出现的顺序</p>
+<p>（3）时序：是对事件发生顺序地详细说明</p>
+</blockquote>
 </li>
-<li><p>ISO/OSI参考模型和TCP/IP模型。</p>
+<li><p>层次结构是处理计算机网络问题最基本的方法。对于一些难以处理的复杂问题，通常采用分解为若干个容易处理的、小一些的问题，“化整为零，分而治之”的方法去解决</p>
+</li>
+<li><p>在邮政系统中，邮箱就是发信人、收信人与邮递员之间交互的接口。接口是同一主机内<strong>相邻层之间交换信息</strong>的连接点</p>
+</li>
+<li><p>实体：任何可<strong>发送或接受信息</strong>的<strong>硬件或软件进程</strong>，通常是个特定的软件模块。</p>
+<blockquote>
+<p>第n层的活动元素称为n层实体</p>
+<p>不同机器上同一层称为对等层，同一层的实体叫做<strong>对等实体</strong></p>
+</blockquote>
+</li>
+<li><p>服务：下层为相邻上层提供的功能调用，垂直的。对等实体在协议的控制下使得本层能为上一层提供服务。</p>
+</li>
+</ul>
+</li>
+<li><p>ISO/OSI参考模型和TCP/IP模型</p>
+<p><img src="https://gitee.com/mysteryguest/ObjectStorage/raw/master/computernetwork/stratification.png" alt=""></p>
 </li>
 </ol>
 <h2 id="二、物理层"><a href="#二、物理层" class="headerlink" title="二、物理层"></a>二、物理层</h2><h3 id="2-1-通信基础"><a href="#2-1-通信基础" class="headerlink" title="2.1 通信基础"></a>2.1 通信基础</h3><ol>
-<li><p>信道、信号、宽带、码元、波特、速率、信源与信宿等基本概念;</p>
+<li><p>信道、信号、宽带、码元、波特、速率、信源与信宿等基本概念</p>
+<ul>
+<li><p>信道：通信的通道，是信号传输的媒介</p>
 </li>
-<li><p>奈奎斯特定理与香农定理;</p>
+<li><p>信号：在通信系统中，二进制代码0、1比特序列必须变换成不同的电平或频率变化的信号之后，才能通过传输介质进行传输</p>
 </li>
-<li><p>编码与调制;</p>
+<li><p>带宽：网络的通信线路传送数据的能力。即：在单位时间内从网络中的某一个点到另一点所能通过的“最高数据率”</p>
 </li>
-<li><p>电路交换、报文交换与分组交换;</p>
+<li><p>码元：在数字通信中常常用时间间隔相同的符号来表示一个二进制数字，这样的时间间隔内的信号称为(二进制）码元</p>
+<blockquote>
+<p>一个数字脉冲就是一个码元</p>
+</blockquote>
 </li>
-<li><p>数据报与虚电路。</p>
+<li><p>波特：调制速率描述通过模拟线路传输模拟数据信号的过程中，从调制解调器输出的调制信号每秒钟载波调制状态改变的数值，单位是1/s，称为波特</p>
+<blockquote>
+<p>1波特表示数字通信系统每秒传输1个码元，单位时间内数字通信系统所传输的码元个数</p>
+</blockquote>
+</li>
+<li><p>速率：连接在计算机网络上的主机在数字信道上传送数据的速率，也称为数据率或比特率。</p>
+</li>
+<li><p>信源：发送数据的一方</p>
+</li>
+<li><p>信宿：接收数据的一方</p>
+</li>
+</ul>
+</li>
+<li><p>奈奎斯特定理与香农定理</p>
+<ul>
+<li>Nyquist准则</li>
+</ul>
+</li>
+<li><p>编码与调制</p>
+<ul>
+<li><p>编码：把数字信号转换为另一种形式的数字信号</p>
+<blockquote>
+<p>常用编码方式：不归零制，归零制（正脉冲代表1，负脉冲代表0），曼彻斯特编码（位周期中心的向上跳变代表0，向下代表1，反之亦可），差分曼彻斯特编码（每一位的中心处始终有跳变。位开始边界有跳变为0，位开始边界无跳变为1）。</p>
+</blockquote>
+</li>
+<li><p>调制：将发送端的数字信号变换成模拟信号的过程。实现调制功能的设备称为“调制器”</p>
+</li>
+</ul>
+</li>
+<li><p>电路交换、报文交换与分组交换</p>
+</li>
+<li><p>数据报与虚电路</p>
 </li>
 </ol>
 <h3 id="2-2-传输介质"><a href="#2-2-传输介质" class="headerlink" title="2.2 传输介质"></a>2.2 传输介质</h3><ol>
