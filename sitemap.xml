@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://mysticalguest.github.io/2020/09/02/Redis/NoSQL/</loc>
+    
+    <lastmod>2020-09-07T15:53:55.922Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://mysticalguest.github.io/2020/09/05/Java/Thread/</loc>
     
     <lastmod>2020-09-07T15:37:05.411Z</lastmod>
@@ -82,13 +89,6 @@
     <loc>https://mysticalguest.github.io/2020/08/18/CSharp/CSharpReview/</loc>
     
     <lastmod>2020-09-02T08:16:27.945Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://mysticalguest.github.io/2020/09/02/Redis/NoSQL/</loc>
-    
-    <lastmod>2020-09-02T03:08:35.828Z</lastmod>
     
   </url>
   
