@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://mysticalguest.github.io/2020/09/05/Java/Thread/</loc>
+    
+    <lastmod>2020-09-08T15:51:10.470Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://mysticalguest.github.io/2020/08/07/Spring/SpringBootConfig/</loc>
     
     <lastmod>2020-09-08T15:48:34.832Z</lastmod>
@@ -19,13 +26,6 @@
     <loc>https://mysticalguest.github.io/2020/08/28/Java/JVM%E7%AE%80%E4%BB%8B/</loc>
     
     <lastmod>2020-09-08T15:43:22.126Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://mysticalguest.github.io/2020/09/05/Java/Thread/</loc>
-    
-    <lastmod>2020-09-08T15:41:23.958Z</lastmod>
     
   </url>
   
