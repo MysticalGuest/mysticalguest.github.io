@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="zh"><head><meta charset="utf-8"><meta name="generator" content="Hexo 4.2.1"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>面试准备 - Longing(MysteryGuest的博客)</title><meta description="(04)光电综合 《光电综合》考察物理光学和数字电路的基础知识 目的在于考察学生对物理光学基础知识和现代光电技术及仪器中所涉及的基本数字电路的了解情况和掌握程度。 考试内容包括:"><meta property="og:type" content="blog"><meta property="og:title" content="面试准备"><meta property="og:url" content="https://mysticalguest.github.io/"><meta property="og:site_name" content="Longing(MysteryGuest的博客)"><meta property="og:description" content="(04)光电综合 《光电综合》考察物理光学和数字电路的基础知识 目的在于考察学生对物理光学基础知识和现代光电技术及仪器中所涉及的基本数字电路的了解情况和掌握程度。 考试内容包括:"><meta property="og:locale" content="zh_CN"><meta property="og:image" content="https://gitee.com/mysteryguest/ObjectStorage/raw/master/Postgraduate/China_Houses_Beijing.jpg"><meta property="article:published_time" content="2021-03-27T12:07:03.754Z"><meta property="article:modified_time" content="2021-03-27T14:03:48.468Z"><meta property="article:author" content="MysticalGuest"><meta property="article:tag" content="Theory"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="https://gitee.com/mysteryguest/ObjectStorage/raw/master/Postgraduate/China_Houses_Beijing.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://mysticalguest.github.io/2021/03/27/Postgraduate/photoelectricSynthesis/"},"headline":"MysteryGuest","image":["https://gitee.com/mysteryguest/ObjectStorage/raw/master/Postgraduate/China_Houses_Beijing.jpg"],"datePublished":"2021-03-27T12:07:03.754Z","dateModified":"2021-03-27T14:03:48.468Z","author":{"@type":"Person","name":"MysticalGuest"},"description":"java,技术分享,后端开发,算法,spring"}</script><link rel="canonical" href="https://mysticalguest.github.io/2021/03/27/Postgraduate/photoelectricSynthesis/"><link rel="alternative" href="/atom.xml" title="Longing(MysteryGuest的博客)" type="application/atom+xml"><link rel="icon" href="/img/bird.ico"><link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/font-awesome/5.12.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.loli.net/css2?family=Oxanium:wght@300;400;600&amp;family=Roboto+Mono"><link rel="stylesheet" href="/css/cyberpunk.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><script src="/js/click.js"></script><script src="/js/anime.min.js"></script><canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;"></canvas><script src="/js/snow.js"></script><!--!--><script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" defer></script><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css"><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script></head><body class="is-3-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/mylogo.svg" alt="Longing(MysteryGuest的博客)" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">首页</a><a class="navbar-item" href="/archives">归档</a><a class="navbar-item" href="/categories">分类</a><a class="navbar-item" href="/tags">标签</a><a class="navbar-item" href="/friend">友链</a><a class="navbar-item" href="/about">关于</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Visit on GitHub" href="https://github.com/MysticalGuest"><i class="fab fa-github"></i></a><a class="navbar-item is-hidden-tablet catalogue" title="目录" href="javascript:;"><i class="fas fa-list-ul"></i></a><a class="navbar-item search" title="搜索" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main"><div class="card"><div class="card-image"><span class="image is-7by3"><img class="thumbnail" src="https://gitee.com/mysteryguest/ObjectStorage/raw/master/Postgraduate/China_Houses_Beijing.jpg" alt="面试准备"></span></div><article class="card-content article" role="article"><div class="article-meta size-small is-uppercase level is-mobile"><div class="level-left"><time class="level-item" dateTime="2021-03-27T12:07:03.754Z" title="2021-03-27T12:07:03.754Z">2021-03-27</time><span class="level-item"><a class="link-muted" href="/categories/%E9%9D%A2%E8%AF%95%E9%A2%98%E9%9B%86/">面试题集</a></span><span class="level-item">16 分钟 读完 (大约 2402 个字)</span><span class="level-item" id="busuanzi_container_page_pv"><i class="far fa-eye"></i>&nbsp;&nbsp;<span id="busuanzi_value_page_pv">0</span>次访问</span></div></div><h1 class="title is-3 is-size-4-mobile">面试准备</h1><div class="content"><p>(04)光电综合</p>
+<p>《光电综合》考察物理光学和数字电路的基础知识</p>
+<p>目的在于考察学生对物理光学基础知识<br>和<br>现代光电技术及仪器中所涉及的基本数字电路的了解情况和掌握程度。</p>
+<p>考试内容包括:</p>
+<a id="more"></a>
+<h3 id="光的干涉衍射和偏振"><a href="#光的干涉衍射和偏振" class="headerlink" title="光的干涉衍射和偏振"></a>光的干涉衍射和偏振</h3><h4 id="光的衍射"><a href="#光的衍射" class="headerlink" title="光的衍射"></a>光的衍射</h4><p>光离开直线路径绕到障碍物或小孔后面传播的现象。</p>
+<p>发生明显衍射的条件：只有在障碍物或孔的尺寸比光的波长小或者跟波长差不多的条件下，才能发生明显的衍射现象。</p>
+<p>常见的衍射现象有单缝衍射，圆孔衍射和泊松亮斑等。</p>
+<h4 id="光的干涉"><a href="#光的干涉" class="headerlink" title="光的干涉"></a>光的干涉</h4><p>产生稳定干涉的条件：只有两列光波的频率相同，位相差恒定，振动方向一致的相干光源，才能产生光的干涉。由两个普通独立光源发出的光，不可能具有相同的频率，更不可能存在固定的相差，因此，不能产生干涉现象。</p>
+<p>双缝干涉</p>
+<p>两列或几列光波在空间相遇时相互叠加，在某些区域始终加强，在另一些区域则始终削弱，形成稳定的强弱分布的现象，证实了光具有波动性。</p>
+<h3 id="数字逻辑电路的基本知识"><a href="#数字逻辑电路的基本知识" class="headerlink" title="数字逻辑电路的基本知识"></a>数字逻辑电路的基本知识</h3><h3 id="半导体器件原理和输入输出特性"><a href="#半导体器件原理和输入输出特性" class="headerlink" title="半导体器件原理和输入输出特性"></a>半导体器件原理和输入输出特性</h3><p>另有一类物质的导电特性处于导体和绝缘体之间，称为半导体，如锗、硅、砷化镓和一些硫化物、氧<br>化物等。</p>
+<ul>
+<li>物体导电性能取决于由自由电子浓度</li>
+</ul>
+<p>导体原子核对电子的束缚较小，自由电子浓度高，导电性能好</p>
+<p>绝缘体中大多数电子都被原子核束缚，自由电子浓度很低，导电性能差</p>
+<p>半导体则介于两者之间，且易受外界因数的影响</p>
+<ul>
+<li>价电子：半导体材料原子最外层的电子由于受原子核的束缚较小，比较容易变成自由电子。</li>
+</ul>
+<p>现代电子学中，用的最多的半导体是硅和锗，它们的最外层电子（价电子）都是四个。</p>
+<p><strong>半导体的导电能力随<code>温度</code>、<code>光照</code>和<code>掺杂</code>等因素发生显著变化，这些特点使它们成为制作半导体元器件的重要材料</strong>。</p>
+<p>本征半导体：纯净的单晶半导体。</p>
+<p>价电子可以获得足够大的能量，挣脱共价键的束缚，游离出去，成为自由电子，并在共价键处留下带有一个单位的正电荷的空穴。这个过程称为<strong>本征激发</strong>。本征激发产生成对的自由电子和空穴，所以本征半导体中自由电子和空穴的数量相等。</p>
+<p>价电子的反向递补运动<em>等价为</em>空穴在半导体中自由移动。因此，在本征激发的作用下，本征半导体中出现了带负电的自由电子和带正电的空穴，二者都可以参与导电，统称为载流子。</p>
+<p>自由电子和空穴在自由移动过程中相遇时，自由电子填入空穴，释放出能量，从而消失一对载流子，这个过程称为<strong>复合</strong>。</p>
+<p>自由电子（负电荷）：部分价电子挣脱共价键束缚离开原子而成为自由电子。自由电子可以在单晶体中自由移动。</p>
+<p>空穴（正电荷）：失去价电子的共价键处留下一个空位，即空穴。</p>
+<p>空穴的移动：相邻共价键中的电子在空位正电荷的吸引下会填补这个空位，即空位发生了移动。</p>
+<p>空穴的移动实际上是束缚电子的反移动。</p>
+<p>自由电子和空穴都可以参与导电，这是半导体不同于金属（只有自由电子）的区别之一。</p>
+<p>本征激发：本征半导体受外界能量（热、电和光等）激发，同时产生电子、空穴对的过程。</p>
+<p>本征半导体导电性能对温度的变化很敏感。本征载流子浓度随温度升高近似指数上升。本征半导体导电能力弱。禁带宽度越大，导电性能越差（绝缘性能越好)</p>
+<h4 id="N型半导体和P型半导体"><a href="#N型半导体和P型半导体" class="headerlink" title="N型半导体和P型半导体"></a>N型半导体和P型半导体</h4><p>本征激发产生的自由电子和空穴的数量相对很少，这说明本征半导体的导电能力很弱。</p>
+<p>我们可以人工少量掺杂某些元素的原子，从而显著提高半导体的导电能力，这样获得的半导体称为杂质半导体。根据掺杂元素的不同，杂质半导体分为N型半导体和P型半导体。</p>
+<ul>
+<li><p>N型半导体</p>
+<p>在本征半导体中掺入五价原子，即构成N型半导体。N型半导体中每掺杂一个杂质元素的原子，就提供一个自由电子，从而大量增加了自由电子的浓度一一<em>施主电离</em>。</p>
+<p>多数载流子一一自由电子</p>
+<p>少数载流子一一空穴</p>
+<p>但半导体仍保持电中性</p>
+</li>
+<li><p>P型半导体</p>
+<p>在本征半导体中掺入三价原子，即构成P型半导体。P型半导体中每掺杂一个杂质元素的原子,就提供一个空穴,从而大量增加了空穴的浓度一一<em>受主电离</em>。</p>
+<p>多数载流子一一空穴</p>
+<p>少数载流子一一自由电子</p>
+<p>但半导体仍保持电中性</p>
+</li>
+<li><p>本征半导体载流子受温度、光照影响大。杂质半导体载流子主要受掺杂浓度控制。</p>
+</li>
+</ul>
+<h4 id="半导体电流"><a href="#半导体电流" class="headerlink" title="半导体电流"></a>半导体电流</h4><p>漂移电流：在电场的作用下，自由电子会逆着电场方向漂移，而空穴则顺着电场方向漂移，这样产生的电流称为漂移电流，该电流的大小主要取决于载流子的浓度，迁移率和电场强度。</p>
+<p>扩散电流：半导体中载流子浓度不均匀分布时，载流子会从高浓度区向低浓度区扩散，从而形成扩散电流，该电流的大小正比于载流子的浓度差即浓度梯度的大小。</p>
+<h4 id="PN结"><a href="#PN结" class="headerlink" title="PN结"></a>PN结</h4><p>通过掺杂工艺，把本征半导体的一边做成P型半导体，另一边做成N型半导体，则P型半导体和N型半导体的交接面处会形成一个有特殊物理性质的薄层，称为PN结。</p>
+<p>空间电荷区又称为耗尽区或势垒区。在掺杂浓度不对称的PN结中，耗尽区在重掺杂一边延伸较小，而在轻掺杂一边延伸较大。</p>
+<h3 id="组合逻辑设计"><a href="#组合逻辑设计" class="headerlink" title="组合逻辑设计"></a>组合逻辑设计</h3><p>组合逻辑电路：对于一个逻辑电路，其输出状态在任何时刻<em>只取决于同一时刻的输入状态</em>，而与电路原来的状态无关。</p>
+<ul>
+<li>确定逻辑功能，列出真值表</li>
+<li>画出卡诺图，列出表达式</li>
+<li>设计电路</li>
+</ul>
+<h3 id="触发器"><a href="#触发器" class="headerlink" title="触发器"></a>触发器</h3><p>在时钟脉冲边沿作用下的状态刷新称为<strong>触发</strong>。具有这种特性的存储单元电路称为<strong>触发器</strong>。</p>
+<h4 id="触发器的逻辑功能"><a href="#触发器的逻辑功能" class="headerlink" title="触发器的逻辑功能"></a>触发器的逻辑功能</h4><ul>
+<li><p>D触发器</p>
+<p>特征方程：<script type="math/tex">Q^{n+1}=D</script></p>
+</li>
+<li><p>JK触发器</p>
+<script type="math/tex; mode=display">Q^{n+1}=J\overline {Q^n}+\overline KQ^n</script></li>
+<li><p>T触发器</p>
+<script type="math/tex; mode=display">Q^{n+1}=T\overline {Q^n}+\overline TQ^n=T\bigoplus Q^n</script></li>
+<li><p>SR触发器</p>
+<script type="math/tex; mode=display">\begin{cases} Q^{n+1}=S+\overline RQ^n\\ SR=0(约束条件)\\ \end{cases}</script></li>
+</ul>
+<h3 id="时序逻辑设计"><a href="#时序逻辑设计" class="headerlink" title="时序逻辑设计"></a>时序逻辑设计</h3><p>时序逻辑电路：电路在任一时刻的输出信号不仅与当时的输入信号有关，而且与电路原来的状态有关。</p>
+<p>整个时序电路由<code>进行逻辑运算的组合电路</code>和<code>起记忆作用的存储电路</code>两部分构成。存储电路可用<code>触发器</code>或<code>锁存器</code>组成。</p>
+<p>时序电路是状态依赖的，故又称<strong>状态机</strong>。</p>
+<h4 id="时序电路具有以下主要特征："><a href="#时序电路具有以下主要特征：" class="headerlink" title="时序电路具有以下主要特征："></a>时序电路具有以下主要特征：</h4><ul>
+<li>组成</li>
+<li>时序电路的输出信号由输入信号和电路的状态共同决定。</li>
+</ul>
+<h4 id="异步时序电路"><a href="#异步时序电路" class="headerlink" title="异步时序电路"></a>异步时序电路</h4><p>定义：若电路中触发器的时钟输入端没有接在统一的时钟脉冲上，或电路中没有时钟脉冲，电路中各个存储单元的状态更新不是同时发生的。</p>
+<p>根据电路是对脉冲边沿敏感还是对电平敏感，异步时序电路又分为：</p>
+<ul>
+<li>脉冲异步时序电路（由触发器构成）</li>
+<li>电平异步时序电路（由锁存器构成）</li>
+</ul>
+<h3 id="分析同步时序逻辑电路的一般步骤"><a href="#分析同步时序逻辑电路的一般步骤" class="headerlink" title="分析同步时序逻辑电路的一般步骤"></a>分析同步时序逻辑电路的一般步骤</h3><ul>
+<li>根据电路列出方程组</li>
+<li>列出状态表</li>
+<li>画出状态图</li>
+<li>画出时序图</li>
+<li>逻辑功能分析</li>
+</ul>
+<h3 id="数字器件的使用和设计"><a href="#数字器件的使用和设计" class="headerlink" title="数字器件的使用和设计"></a>数字器件的使用和设计</h3></div><div class="article-tags size-small mb-4"><span class="mr-2">#</span><a class="link-muted mr-2" rel="tag" href="/tags/Theory/">Theory</a></div><div class="a2a_kit a2a_kit_size_32 a2a_default_style"><a class="a2a_dd" href="https://www.addtoany.com/share"></a><a class="a2a_button_facebook"></a><a class="a2a_button_twitter"></a><a class="a2a_button_telegram"></a><a class="a2a_button_whatsapp"></a><a class="a2a_button_reddit"></a></div><script src="https://static.addtoany.com/menu/page.js" defer></script></article></div><div class="card"><div class="card-content"><h3 class="menu-label has-text-centered">喜欢这篇文章？打赏一下作者吧</h3><div class="buttons is-centered"><a class="button is-info donate"><span class="icon is-small"><i class="fab fa-alipay"></i></span><span>支付宝</span><span class="qrcode"><img src="/donate/alipay.jpg" alt="支付宝"></span></a><a class="button is-success donate"><span class="icon is-small"><i class="fab fa-weixin"></i></span><span>微信</span><span class="qrcode"><img src="/donate/wechatpay.png" alt="微信"></span></a></div></div></div><nav class="post-navigation mt-4 level is-mobile"><div class="level-end"><a class="article-nav-next level level-item link-muted" href="/2021/03/16/Postgraduate/interviewQuestions/"><span class="level-item">面试准备</span><i class="level-item fas fa-chevron-right"></i></a></div></nav><div class="card"><div class="card-content"><h3 class="title is-5">评论</h3><div class="content" id="valine-thread"></div><script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script><script src="https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js"></script><script>new Valine({
+            el: '#valine-thread' ,
+            appId: "vucxC0bltE95lsPGxGXlUJBf-gzGzoHsz",
+            appKey: "YgRn5inwLxs6B4VgyLp4zvti",
+            placeholder: "ヾﾉ≧∀≦)o快来评论一下吧!",
+            avatar: "mm",
+            
+            meta: ["nick","mail","link"],
+            pageSize: 10,
+            lang: "zh-CN",
+            
+            highlight: true,
+            
+            
+            
+            
+            
+            requiredFields: [],
+        });</script></div></div></div><div class="column column-left is-4-tablet is-4-desktop is-3-widescreen  order-1 is-sticky"><div class="card widget"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar" src="/img/shadow.jpg" alt="肖梦杰"></figure><p class="title is-size-4 is-block line-height-inherit">肖梦杰</p><p class="is-size-6 is-block">MysticalGuest</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>Xiangyang City, Hubei Province, China</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">文章</p><a href="/archives"><p class="title">51</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">分类</p><a href="/categories"><p class="title">16</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">标签</p><a href="/tags"><p class="title">15</p></a></div></div></nav><div class="level"><a class="level-item button is-primary is-rounded" href="https://github.com/MysticalGuest" target="_blank" rel="noopener">关注我</a></div><div class="level is-mobile"><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Github" href="https://github.com/MysticalGuest"><i class="fab fa-github"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="QQ" href="https://user.qzone.qq.com/1317148109/main"><i class="fab fa-qq"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Weibo" href="https://weibo.com/MysticalGuest"><i class="fab fa-weibo"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Email" href="mailto:etherealsymbol@gmail.com"><i class="fa fa-envelope"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="RSS" href="/atom.xml"><i class="fas fa-rss"></i></a></div></div></div><div class="card widget" id="toc"><div class="card-content"><div class="menu"><h3 class="menu-label">目录</h3><ul class="menu-list"><li><a class="is-flex" href="#光的干涉衍射和偏振"><span class="mr-2">1</span><span>光的干涉衍射和偏振</span></a><ul class="menu-list"><li><a class="is-flex" href="#光的衍射"><span class="mr-2">1.1</span><span>光的衍射</span></a></li><li><a class="is-flex" href="#光的干涉"><span class="mr-2">1.2</span><span>光的干涉</span></a></li></ul></li><li><a class="is-flex" href="#数字逻辑电路的基本知识"><span class="mr-2">2</span><span>数字逻辑电路的基本知识</span></a></li><li><a class="is-flex" href="#半导体器件原理和输入输出特性"><span class="mr-2">3</span><span>半导体器件原理和输入输出特性</span></a><ul class="menu-list"><li><a class="is-flex" href="#N型半导体和P型半导体"><span class="mr-2">3.1</span><span>N型半导体和P型半导体</span></a></li><li><a class="is-flex" href="#半导体电流"><span class="mr-2">3.2</span><span>半导体电流</span></a></li><li><a class="is-flex" href="#PN结"><span class="mr-2">3.3</span><span>PN结</span></a></li></ul></li><li><a class="is-flex" href="#组合逻辑设计"><span class="mr-2">4</span><span>组合逻辑设计</span></a></li><li><a class="is-flex" href="#触发器"><span class="mr-2">5</span><span>触发器</span></a><ul class="menu-list"><li><a class="is-flex" href="#触发器的逻辑功能"><span class="mr-2">5.1</span><span>触发器的逻辑功能</span></a></li></ul></li><li><a class="is-flex" href="#时序逻辑设计"><span class="mr-2">6</span><span>时序逻辑设计</span></a><ul class="menu-list"><li><a class="is-flex" href="#时序电路具有以下主要特征："><span class="mr-2">6.1</span><span>时序电路具有以下主要特征：</span></a></li><li><a class="is-flex" href="#异步时序电路"><span class="mr-2">6.2</span><span>异步时序电路</span></a></li></ul></li><li><a class="is-flex" href="#分析同步时序逻辑电路的一般步骤"><span class="mr-2">7</span><span>分析同步时序逻辑电路的一般步骤</span></a></li><li><a class="is-flex" href="#数字器件的使用和设计"><span class="mr-2">8</span><span>数字器件的使用和设计</span></a></li></ul></div></div></div><div class="card widget"><div class="card-content"><div class="menu"><h3 class="menu-label">链接</h3><ul class="menu-list"><li><a class="level is-mobile is-mobile" href="https://hexo.io" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Hexo</span></span><span class="level-right"><span class="level-item tag">hexo.io</span></span></a></li><li><a class="level is-mobile is-mobile" href="https://bulma.io" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Bulma</span></span><span class="level-right"><span class="level-item tag">bulma.io</span></span></a></li><li><a class="level is-mobile is-mobile" href="https://spring.io" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Spring</span></span><span class="level-right"><span class="level-item tag">spring.io</span></span></a></li><li><a class="level is-mobile is-mobile" href="https://redis.io" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Redis</span></span><span class="level-right"><span class="level-item tag">redis.io</span></span></a></li><li><a class="level is-mobile is-mobile" href="https://docker.com" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Docker</span></span><span class="level-right"><span class="level-item tag">docker.com</span></span></a></li></ul></div></div></div><div class="card widget"><div class="card-content"><div class="menu"><h3 class="menu-label">分类</h3><ul class="menu-list"><li><a class="level is-mobile is-marginless" href="/categories/English/"><span class="level-start"><span class="level-item">English</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile is-marginless" href="/categories/%E4%B8%BB%E9%A2%98/"><span class="level-start"><span class="level-item">主题</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile is-marginless" href="/categories/%E5%8E%9F%E7%90%86/"><span class="level-start"><span class="level-item">原理</span></span><span class="level-end"><span class="level-item tag">4</span></span></a></li><li><a class="level is-mobile is-marginless" href="/categories/%E5%A4%8D%E8%AF%95/"><span class="level-start"><span class="level-item">复试</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile is-marginless" href="/categories/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E/"><span class="level-start"><span class="level-item">搜索引擎</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile is-marginless" href="/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"><span class="level-start"><span class="level-item">数据库</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile is-marginless" href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"><span class="level-start"><span class="level-item">数据结构</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile is-marginless" href="/categories/%E6%A1%86%E6%9E%B6/"><span class="level-start"><span class="level-item">框架</span></span><span class="level-end"><span class="level-item tag">12</span></span></a></li><li><a class="level is-mobile is-marginless" href="/categories/%E7%A7%AF%E7%B4%AF/"><span class="level-start"><span class="level-item">积累</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile is-marginless" href="/categories/%E7%AE%97%E6%B3%95/"><span class="level-start"><span class="level-item">算法</span></span><span class="level-end"><span class="level-item tag">14</span></span></a></li><li><a class="level is-mobile is-marginless" href="/categories/%E7%BC%96%E7%A8%8B/"><span class="level-start"><span class="level-item">编程</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile is-marginless" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"><span class="level-start"><span class="level-item">计算机网络</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile is-marginless" href="/categories/%E8%AF%BE%E7%A8%8B/"><span class="level-start"><span class="level-item">课程</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li><li><a class="level is-mobile is-marginless" href="/categories/%E9%85%8D%E7%BD%AE/"><span class="level-start"><span class="level-item">配置</span></span><span class="level-end"><span class="level-item tag">6</span></span></a></li><li><a class="level is-mobile is-marginless" href="/categories/%E9%9D%A2%E8%AF%95/"><span class="level-start"><span class="level-item">面试</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile is-marginless" href="/categories/%E9%9D%A2%E8%AF%95%E9%A2%98%E9%9B%86/"><span class="level-start"><span class="level-item">面试题集</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li></ul></div></div></div><div class="card widget"><div class="card-content"><div class="menu"><h3 class="menu-label">标签</h3><div class="field is-grouped is-grouped-multiline"><div class="control"><a class="tags has-addons" href="/tags/Axios/"><span class="tag">Axios</span><span class="tag is-grey-lightest">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/C/"><span class="tag">C</span><span class="tag is-grey-lightest">14</span></a></div><div class="control"><a class="tags has-addons" href="/tags/C/"><span class="tag">C#</span><span class="tag is-grey-lightest">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/ElasticSearch/"><span class="tag">ElasticSearch</span><span class="tag is-grey-lightest">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Electron-Vue/"><span class="tag">Electron-Vue</span><span class="tag is-grey-lightest">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Element-UI/"><span class="tag">Element-UI</span><span class="tag is-grey-lightest">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/GitHub/"><span class="tag">GitHub</span><span class="tag is-grey-lightest">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Hexo/"><span class="tag">Hexo</span><span class="tag is-grey-lightest">3</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Huawei/"><span class="tag">Huawei</span><span class="tag is-grey-lightest">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Java/"><span class="tag">Java</span><span class="tag is-grey-lightest">4</span></a></div><div class="control"><a class="tags has-addons" href="/tags/OS/"><span class="tag">OS</span><span class="tag is-grey-lightest">3</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Redis/"><span class="tag">Redis</span><span class="tag is-grey-lightest">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Spring/"><span class="tag">Spring</span><span class="tag is-grey-lightest">12</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Theory/"><span class="tag">Theory</span><span class="tag is-grey-lightest">6</span></a></div><div class="control"><a class="tags has-addons" href="/tags/TypeScript/"><span class="tag">TypeScript</span><span class="tag is-grey-lightest">1</span></a></div></div></div></div></div><div class="card widget"><div class="card-content"><div class="menu"><h3 class="menu-label">订阅更新</h3><form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open(&#039;https://feedburner.google.com/fb/a/mailverify?uri=&#039;,&#039;popupwindow&#039;,&#039;scrollbars=yes,width=550,height=520&#039;);return true"><input type="hidden" value="" name="uri"><input type="hidden" name="loc" value="en_US"><div class="field has-addons"><div class="control has-icons-left is-expanded"><input class="input" name="email" type="email" placeholder="Email"><span class="icon is-small is-left"><i class="fas fa-envelope"></i></span></div><div class="control"><input class="button is-primary" type="submit" value="订阅"></div></div></form></div></div></div></div></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="/img/mylogo.svg" alt="Longing(MysteryGuest的博客)" height="28"></a><p class="size-small"><span>&copy; 2021 MysticalGuest</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a><br><span id="busuanzi_container_site_uv">共<span id="busuanzi_value_site_uv">0</span>个访客</span><br><span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv">0</span>次</span><br><span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span><span><script>	var now = new Date();	function createtime() {		var grt= new Date("4/2/2020 08:00:00");		now.setTime(now.getTime()+250);		days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 		hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 		if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum); 		mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 		seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 		snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 		document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 "; 		document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";	}	setInterval("createtime()",250);</script></span></p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="GitHub" href="https://github.com/MysticalGuest"><i class="fab fa-github"></i></a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script>moment.locale("zh-CN");</script><script>var IcarusThemeSettings = {
+            site: {
+                url: 'https://mysticalguest.github.io',
+                external_link: {"enable":true,"exclude":[]}
+            },
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
+            }
+        };</script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script src="/js/animation.js"></script><a id="back-to-top" title="回到顶端" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><script src="/js/click.js"></script><script src="/js/anime.min.js"></script><canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;"></canvas><script src="/js/snow.js"></script><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+            if (typeof $.fn.lightGallery === 'function') {
+                $('.article').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof $.fn.justifiedGallery === 'function') {
+                if ($('.justified-gallery > p > .gallery-item').length) {
+                    $('.justified-gallery > p > .gallery-item').unwrap();
+                }
+                $('.justified-gallery').justifiedGallery();
+            }
+        });</script><!--!--><!--!--><script type="text/x-mathjax-config">MathJax.Hub.Config({
+            'HTML-CSS': {
+                matchFontHeight: false
+            },
+            SVG: {
+                matchFontHeight: false
+            },
+            CommonHTML: {
+                matchFontHeight: false
+            },
+            tex2jax: {
+                inlineMath: [
+                    ['$','$'],
+                    ['\\(','\\)']
+                ]
+            }
+        });</script><script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/unpacked/MathJax.js?config=TeX-MML-AM_CHTML" defer></script><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="想要查找什么..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/content.json"}, {"hint":"想要查找什么...","untitled":"(无标题)","posts":"文章","pages":"页面","categories":"分类","tags":"标签"});
+        });</script></body></html>
