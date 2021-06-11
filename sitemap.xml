@@ -501,7 +501,7 @@
   </url>
   
   <url>
-    <loc>https://mysticalguest.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
+    <loc>https://mysticalguest.github.io/tags/English/</loc>
     <lastmod>2021-06-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -509,13 +509,6 @@
   
   <url>
     <loc>https://mysticalguest.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/</loc>
-    <lastmod>2021-06-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://mysticalguest.github.io/tags/English/</loc>
     <lastmod>2021-06-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -536,7 +529,7 @@
   </url>
   
   <url>
-    <loc>https://mysticalguest.github.io/tags/%E6%A1%86%E6%9E%B6/</loc>
+    <loc>https://mysticalguest.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
     <lastmod>2021-06-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -544,6 +537,13 @@
   
   <url>
     <loc>https://mysticalguest.github.io/tags/%E8%80%83%E7%A0%94/</loc>
+    <lastmod>2021-06-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mysticalguest.github.io/tags/%E6%A1%86%E6%9E%B6/</loc>
     <lastmod>2021-06-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -615,14 +615,14 @@
   </url>
   
   <url>
-    <loc>https://mysticalguest.github.io/categories/Redis/</loc>
+    <loc>https://mysticalguest.github.io/categories/Study/</loc>
     <lastmod>2021-06-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://mysticalguest.github.io/categories/Study/</loc>
+    <loc>https://mysticalguest.github.io/categories/Redis/</loc>
     <lastmod>2021-06-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -636,20 +636,6 @@
   </url>
   
   <url>
-    <loc>https://mysticalguest.github.io/categories/Electron-Vue/</loc>
-    <lastmod>2021-06-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://mysticalguest.github.io/categories/Axios/</loc>
-    <lastmod>2021-06-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://mysticalguest.github.io/categories/TypeScript/</loc>
     <lastmod>2021-06-11</lastmod>
     <changefreq>daily</changefreq>
@@ -657,7 +643,21 @@
   </url>
   
   <url>
+    <loc>https://mysticalguest.github.io/categories/Electron-Vue/</loc>
+    <lastmod>2021-06-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://mysticalguest.github.io/categories/Element-UI/</loc>
+    <lastmod>2021-06-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mysticalguest.github.io/categories/Axios/</loc>
     <lastmod>2021-06-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
