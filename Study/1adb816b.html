@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="zh"><head><meta charset="utf-8"><meta name="generator" content="Hexo 4.2.1"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="baidu-site-verification" content="code-kyGo8s2mM1"><title>人机交互 - Longing(MysteryGuest的博客)</title><meta description="人机交互课程复习"><meta property="og:type" content="blog"><meta property="og:title" content="人机交互"><meta property="og:url" content="https://mysticalguest.github.io/"><meta property="og:site_name" content="Longing(MysteryGuest的博客)"><meta property="og:description" content="人机交互课程复习"><meta property="og:locale" content="zh_CN"><meta property="og:image" content="https://gitee.com/mysteryguest/ObjectStorage/raw/master/Postgraduate/graduation_season.jpg"><meta property="article:published_time" content="2021-06-16T08:31:37.294Z"><meta property="article:modified_time" content="2021-06-18T15:14:41.594Z"><meta property="article:author" content="MysticalGuest"><meta property="article:tag" content="计算机基础"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="https://gitee.com/mysteryguest/ObjectStorage/raw/master/Postgraduate/graduation_season.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://mysticalguest.github.io/Study/1adb816b.html"},"headline":"MysteryGuest","image":["https://gitee.com/mysteryguest/ObjectStorage/raw/master/Postgraduate/graduation_season.jpg"],"datePublished":"2021-06-16T08:31:37.294Z","dateModified":"2021-06-18T15:14:41.594Z","author":{"@type":"Person","name":"MysticalGuest"},"description":"java,技术分享,后端开发,算法,spring"}</script><link rel="canonical" href="https://mysticalguest.github.io/Study/1adb816b.html"><link rel="alternative" href="/atom.xml" title="Longing(MysteryGuest的博客)" type="application/atom+xml"><link rel="icon" href="/img/bird.ico"><link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/font-awesome/5.12.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.loli.net/css2?family=Oxanium:wght@300;400;600&amp;family=Roboto+Mono"><link rel="stylesheet" href="/css/cyberpunk.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><script src="/js/click.js"></script><script src="/js/anime.min.js"></script><canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;"></canvas><script src="/js/snow.js"></script><script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" defer></script><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css"><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script></head><body class="is-3-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/mylogo.svg" alt="Longing(MysteryGuest的博客)" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">首页</a><a class="navbar-item" href="/archives">归档</a><a class="navbar-item" href="/categories">分类</a><a class="navbar-item" href="/tags">标签</a><a class="navbar-item" href="/friend">友链</a><a class="navbar-item" href="/about">关于</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Visit on GitHub" href="https://github.com/MysticalGuest"><i class="fab fa-github"></i></a><a class="navbar-item is-hidden-tablet catalogue" title="目录" href="javascript:;"><i class="fas fa-list-ul"></i></a><a class="navbar-item search" title="搜索" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main"><div class="card"><div class="card-image"><span class="image is-7by3"><img class="thumbnail" src="https://gitee.com/mysteryguest/ObjectStorage/raw/master/Postgraduate/graduation_season.jpg" alt="人机交互"></span></div><article class="card-content article" role="article"><div class="article-meta size-small is-uppercase level is-mobile"><div class="level-left"><time class="level-item" dateTime="2021-06-16T08:31:37.294Z" title="2021-06-16T08:31:37.294Z">2021-06-16</time><span class="level-item"><a class="link-muted" href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/">计算机基础</a></span><span class="level-item"><a class="link-muted" href="/categories/Study/">Study</a></span><span class="level-item">17 分钟 读完 (大约 2550 个字)</span><span class="level-item" id="busuanzi_container_page_pv"><i class="far fa-eye"></i>&nbsp;&nbsp;<span id="busuanzi_value_page_pv">0</span>次访问</span></div></div><h1 class="title is-3 is-size-4-mobile">人机交互</h1><div class="content"><blockquote>
+<p>人机交互课程复习</p>
+</blockquote>
+<a id="more"></a>
+<h2 id="一、交互设计简介"><a href="#一、交互设计简介" class="headerlink" title="一、交互设计简介"></a>一、交互设计简介</h2><p>可用的交互设计必须考虑一个产品被使用的上下文。</p>
+<p>”用户做什么“的信息来源于：（决定了为什么需要技术，及技术需要支持什么）</p>
+<script type="math/tex; mode=display">产品的使用上下文3个方面\begin{cases}
+用户\\
+用户的任务\\
+交互发生的环境\\
+\end{cases}</script><script type="math/tex; mode=display">交互设计包括4项活动\begin{Bmatrix}
+标识需要并建立需求\\
+开发满足需求的候选设计方案\\
+构建设计的交互式设计原型\\
+评估设计\\
+\end{Bmatrix}这些活动间通常具有联系，且具有联系且本身是迭代过程</script><p>目标：期望一个活动或过程执行后达到的状态。</p>
+<p>可用性指易于使用，令人满意；满足什么目标取决于上下文。</p>
+<script type="math/tex; mode=display">{交互设计的目标分为两类\\设计的产品在交互方面应满足的性质}\begin{Bmatrix}
+可用性目标----6种可用性\begin{cases}
+有效使用\\
+高效使用\\
+安全使用\\良好的实用性\\易于学习\\易于记忆如何使用\\
+\end{cases}\\
+用户体验目标\begin{cases}
+满足\\
+舒适\\
+有趣\\刺激\\
+\end{cases}\\
+\end{Bmatrix}可用性目标和用户体验目标的区别</script><script type="math/tex; mode=display">Norman提出的6个基本设计原理\begin{cases}
+可视性\\
+反馈\\
+（3种）限制\begin{cases}
+物理限制\\
+逻辑限制\\
+文化限制\\
+\end{cases}\\映射\\
+（2种）一致性\begin{cases}
+内部一致性\\
+外部一致性\\
+\end{cases}\\启发性\\
+\end{cases}</script><script type="math/tex; mode=display">交互过程的3个关键特征\begin{cases}
+以用户为中心：将用户包含在制品的设计和评估之中\\
+专用的可用性准则：定义可量化、可度量的可用性准则\\
+迭代：迭代不可避免\\
+\end{cases}</script><p>交互式系统的定义：为了支持人类用户的任务执行，而从他们那里接受输入，并将输出表示给他们的软件和硬件构件的集合。</p>
+<h2 id="二、理解与概念化交互"><a href="#二、理解与概念化交互" class="headerlink" title="二、理解与概念化交互"></a>二、理解与概念化交互</h2><h3 id="2-1-什么是原型？"><a href="#2-1-什么是原型？" class="headerlink" title="2.1 什么是原型？"></a>2.1 什么是原型？</h3><ul>
+<li>对产品概念的形象化和具体化，是设计师构思的体现。</li>
+<li>不是产品，是产品的一种近似或受限表示。</li>
+<li>作用：用户可以通过与之交互来探索其使用，可用性。</li>
+</ul>
+<h3 id="2-2-概念模型"><a href="#2-2-概念模型" class="headerlink" title="2.2 概念模型"></a>2.2 概念模型</h3><p>概念模型：即所感兴趣的事物的概念以及它们之间关系的描述。在HCI中，概念模型通常用于描述用户界面应做什么。</p>
+<script type="math/tex; mode=display">2类概念模型\begin{Bmatrix}
+活动模型\stackrel{4种人机交互方式}{\longrightarrow} \begin{cases}
+指令型：用户指示系统做某事\\
+会话型：用户与系统的实时信息交换\\
+操作型：用户直接操作虚指空间中的对象\\
+探索型：用户穿越虚指空间\stackrel{2个相关概念}{\longrightarrow}\begin{cases}
+导航\\
+浏览\\
+\end{cases}\\
+\end{cases} \\
+对象模型\\
+\end{Bmatrix}如何选择概念模型</script><script type="math/tex; mode=display">界面隐喻\stackrel{2个概念}{\longrightarrow}\begin{cases}
+隐喻：是一种短语，他通过陈述另一件事来描述一件事\\
+类比\\
+\end{cases}</script><script type="math/tex; mode=display">7种交互泛型\begin{cases}
+无处不在的计算\\普适计算\\可穿戴计算\\实物用户界面\\
+增强现实\stackrel{AR系统的3个特征}{\longrightarrow}\begin{cases}
+真实对象和虚拟对象在真实环境中的结合\\
+交互并实时的运行\\
+真实对象和虚拟对象相互之间准确重合（对位）\\
+\end{cases}\\
+上下文感知计算\\计算机支持的协同工作\\
+\end{cases}</script><h2 id="三、理解用户"><a href="#三、理解用户" class="headerlink" title="三、理解用户"></a>三、理解用户</h2><script type="math/tex; mode=display">什么是认知\begin{cases}
+2种认知模式\begin{cases}
+经验式认知\\
+思考式认知\\
+\end{cases}\\
+5种认知过程\begin{cases}
+注意\\感知\\
+记忆和识别\begin{cases}
+记忆的结构模型\\
+2种长期记忆中的信息探索\begin{cases}
+回忆\\
+识别\\
+\end{cases}\\
+短时记忆的7\pm2理论\\
+\end{cases}\\读、听、说\\推理、决策、规划、问题求解
+\end{cases}\\\\
+\end{cases}</script><h2 id="四、协作与通信的设计"><a href="#四、协作与通信的设计" class="headerlink" title="四、协作与通信的设计"></a>四、协作与通信的设计</h2><p>通信是个体间的交换过程。</p>
+<script type="math/tex; mode=display">3种协作和通信中的社会机制\begin{cases}
+会话机制\stackrel{2类会话}{\longrightarrow}\begin{cases}
+正式会话：有组织结构的会议\\
+非正式会话：无结构的free-talking\\
+\end{cases}\\
+协调机制\stackrel{3种机制}{\longrightarrow}\begin{cases}
+语言和非语言的通信\\
+时间表、规定和约定\\共享外部表示：外部表示可以为成员提供各种协调他们活动的信息\\
+\end{cases}\\
+感知机制：感官训练，对感知范围内的环境状态的理解\\
+\end{cases}</script><script type="math/tex; mode=display">3类以计算机为介质的通信（CMC）\begin{cases}
+同步通信\\
+异步通信\\
+与其他活动相结合的CMC\\
+\end{cases}</script><p>认知的本质是<strong>分布的</strong>，认知现象<strong>不仅包括个人头脑中所发生的认知活动</strong>，还涉及<strong>人与人之间</strong>，以及<strong>人与技术工具</strong>之间通过<strong>交互实现某一活动</strong>的过程。<strong>通信交流</strong>是分布式认知的必备条件。</p>
+<h2 id="五、理解界面对用户的影响"><a href="#五、理解界面对用户的影响" class="headerlink" title="五、理解界面对用户的影响"></a>五、理解界面对用户的影响</h2><h3 id="5-1-掌握只读存储器结构和工作原理"><a href="#5-1-掌握只读存储器结构和工作原理" class="headerlink" title="5.1 掌握只读存储器结构和工作原理"></a>5.1 掌握只读存储器结构和工作原理</h3><h3 id="5-2-掌握随机存储器结构和工作原理"><a href="#5-2-掌握随机存储器结构和工作原理" class="headerlink" title="5.2 掌握随机存储器结构和工作原理"></a>5.2 掌握随机存储器结构和工作原理</h3><h3 id="5-3-掌握存储器容量扩展方法"><a href="#5-3-掌握存储器容量扩展方法" class="headerlink" title="5.3 掌握存储器容量扩展方法"></a>5.3 掌握存储器容量扩展方法</h3><h3 id="5-4-熟悉用存储器实现组合逻辑函数的方法"><a href="#5-4-熟悉用存储器实现组合逻辑函数的方法" class="headerlink" title="5.4 熟悉用存储器实现组合逻辑函数的方法"></a>5.4 熟悉用存储器实现组合逻辑函数的方法</h3><h2 id="六、交互设计过程"><a href="#六、交互设计过程" class="headerlink" title="六、交互设计过程"></a>六、交互设计过程</h2><script type="math/tex; mode=display">设计的两个定义\begin{cases}
+为某一特定的目的或效果而在头脑中想象和计划\\
+画出一幅画或图案，以显示某物是如何制作的\\
+\end{cases}</script><script type="math/tex; mode=display">交互设计的4项基本活动\begin{cases}
+识别用户需要并建立需求\stackrel{4类参与者}{\longrightarrow}\begin{cases}
+\begin{Bmatrix}主要方\\
+第二方\\第三方\\
+\end{Bmatrix}甲方\\
+\begin{Bmatrix}提供方\end{Bmatrix}乙方\end{cases}\\
+设计候选方案\begin{cases}
+2种产品特征（需要选择的产品特征可概括为两类）\begin{cases}
+内部特征：对用户通常是不可见或不可度量的属性\\
+外部特征：对用户而言，可见及可度量的属性\\
+\end{cases}\\
+可用性规约由7项组成（设计决策的依据）\begin{cases}
+属性\\度量概念\\度量方法\\当前水平\\计划水平\\最坏情况\\最好情况\\
+画出一幅画或图案，以显示某物是如何制作的\\
+\end{cases}\\
+\end{cases}\\
+建立设计的交互式版本\\评估设计\\
+\end{cases}</script><script type="math/tex; mode=display">交互设计过程中的3个关键特征\begin{cases}
+以用户为中心的设计\\
+可用性目标和度量准则\\迭代\\
+\end{cases}</script><script type="math/tex; mode=display">生命周期模型\begin{cases}
+交互设计的4项活动之间的输入/输出及时序关系\\
+软工中的3种生命周期模型\begin{cases}
+瀑布模型\\
+螺旋模型\\RAD模型
+\end{cases}\\
+HCI中的2种生命周期模型\begin{cases}
+面向评估的星形生命周期模型\\
+可用性生命周期模型\\
+\end{cases}\\
+\end{cases}</script><p>交互设计模型是对其他过程模型在可用性目标上的补充。</p>
+<h2 id="七、识别需求并建立需求"><a href="#七、识别需求并建立需求" class="headerlink" title="七、识别需求并建立需求"></a>七、识别需求并建立需求</h2><p>5种方法的适用情形、信息类型和优缺点，如何选择。</p>
+<script type="math/tex; mode=display">5种类型的需求\begin{cases}
+功能需求\\
+数据\\
+环境\begin{cases}
+物理环境\\
+社会\\
+组织\\技术\\
+\end{cases}\\
+用户\\可用性\\
+\end{cases}</script><script type="math/tex; mode=display">5种数据收集技术\begin{cases}
+问卷调查\\
+访谈\\专题组和研讨会\\自然观察\\研究文档\\
+\end{cases}</script><script type="math/tex; mode=display">3种任务描述（提供面向任务的解释）\begin{Bmatrix}
+情节：一种非线性的叙事性描述\\
+用例：对情节进行抽象\\基本用例：在一个抽象层次上指定用户和系统的交互\\
+\end{Bmatrix}任务描述的方法的总结结论</script><h2 id="八、设计原型建立与构造"><a href="#八、设计原型建立与构造" class="headerlink" title="八、设计原型建立与构造"></a>八、设计原型建立与构造</h2><script type="math/tex; mode=display">建立和构造原型\begin{cases}
+2类原型\begin{cases}
+低保真原型：用简单的方式来快速、近似地表示产品的概念\\
+高保真原型：构建的原型更接近于最终产品\\
+\end{cases}\\
+2种基于原型的开发方法\begin{cases}
+丢弃式：旨在获得最终产品的需求/设计，原型被丢弃\\
+演化式：产品从很有限的版本逐步演化为最终发行版本\\
+\end{cases}\\
+\end{cases}</script><p>选择何种类型的原型，取决于使用它们的目的，按原型表达产品的真实程度。</p>
+<script type="math/tex; mode=display">设计活动包括2个方面\begin{cases}
+开发概念模型\stackrel{3个方面}{\longrightarrow}\begin{cases}
+交互方式（对用户的活动提供支持）\begin{cases}
+基于活动的模式\\
+基于对象的模式\\
+\end{cases}\\
+隐喻：使用户易于理解产品的使用\\交互泛型：为具体化概念模型提供指导\\
+\end{cases}\\
+物理设计模型...\\
+\end{cases}</script><h2 id="九、以用户为中心的交互设计"><a href="#九、以用户为中心的交互设计" class="headerlink" title="九、以用户为中心的交互设计"></a>九、以用户为中心的交互设计</h2><script type="math/tex; mode=display">以用户为中心的设计方法的主要原理\begin{cases}
+交互设计的3个关键特征\\
+以研究用户及其任务为基础的5项具体原理\\
+\end{cases}</script><ul>
+<li>开发以用户任务和目标来驱动</li>
+<li>系统需要对用户的行为和使用上下文提供支持</li>
+<li>捕捉用户的特征并将其应用于设计</li>
+<li>在整个开发过程中咨询用户，并认真考虑他们的意见</li>
+<li>应在使用的上下文中做出所有的决策设计</li>
+</ul>
+<script type="math/tex; mode=display">2种用于理解用户工作的现场研究方法\begin{cases}
+一致性方法\\
+上下文设计------上下文质询（询问）\\
+\end{cases}</script><p>将人种学研究应用于实地调查的方法。</p>
+<p>调查采用一种用户访谈形式：上下文访谈；</p>
+<ul>
+<li>“师徒模式”，其中用户是专家，而设计者是学徒；</li>
+<li>设计者观察用户的工作，提问并作记录。</li>
+</ul>
+<p>旨在从用户实际工作的情况下收集数据。</p>
+</div><div class="article-tags size-small mb-4"><span class="mr-2">#</span><a class="link-muted mr-2" rel="tag" href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/">计算机基础</a></div><div class="a2a_kit a2a_kit_size_32 a2a_default_style"><a class="a2a_dd" href="https://www.addtoany.com/share"></a><a class="a2a_button_facebook"></a><a class="a2a_button_twitter"></a><a class="a2a_button_telegram"></a><a class="a2a_button_whatsapp"></a><a class="a2a_button_reddit"></a></div><script src="https://static.addtoany.com/menu/page.js" defer></script></article></div><div class="card"><div class="card-content"><h3 class="menu-label has-text-centered">喜欢这篇文章？打赏一下作者吧</h3><div class="buttons is-centered"><a class="button is-info donate"><span class="icon is-small"><i class="fab fa-alipay"></i></span><span>支付宝</span><span class="qrcode"><img src="/donate/alipay.jpg" alt="支付宝"></span></a><a class="button is-success donate"><span class="icon is-small"><i class="fab fa-weixin"></i></span><span>微信</span><span class="qrcode"><img src="/donate/wechatpay.png" alt="微信"></span></a></div></div></div><nav class="post-navigation mt-4 level is-mobile"><div class="level-end"><a class="article-nav-next level level-item link-muted" href="/Study/4e025b73.html"><span class="level-item">毕业设计</span><i class="level-item fas fa-chevron-right"></i></a></div></nav><div class="card"><div class="card-content"><h3 class="title is-5">评论</h3><div class="content" id="valine-thread"></div><script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script><script src="https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js"></script><script>new Valine({
+            el: '#valine-thread' ,
+            appId: "vucxC0bltE95lsPGxGXlUJBf-gzGzoHsz",
+            appKey: "YgRn5inwLxs6B4VgyLp4zvti",
+            placeholder: "ヾﾉ≧∀≦)o快来评论一下吧!",
+            avatar: "mm",
+            
+            meta: ["nick","mail","link"],
+            pageSize: 10,
+            lang: "zh-CN",
+            
+            highlight: true,
+            
+            
+            
+            
+            
+            requiredFields: [],
+        });</script></div></div></div><div class="column column-left is-4-tablet is-4-desktop is-3-widescreen  order-1 is-sticky"><div class="card widget"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar" src="/img/shadow.jpg" alt="肖梦杰"></figure><p class="title is-size-4 is-block line-height-inherit">肖梦杰</p><p class="is-size-6 is-block">MysticalGuest</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>Xiangyang City, Hubei Province, China</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">文章</p><a href="/archives"><p class="title">60</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">分类</p><a href="/categories"><p class="title">15</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">标签</p><a href="/tags"><p class="title">16</p></a></div></div></nav><div class="level"><a class="level-item button is-primary is-rounded" href="https://github.com/MysticalGuest" target="_blank" rel="noopener">关注我</a></div><div class="level is-mobile"><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Github" href="https://github.com/MysticalGuest"><i class="fab fa-github"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="QQ" href="https://user.qzone.qq.com/1317148109/main"><i class="fab fa-qq"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Weibo" href="https://weibo.com/MysticalGuest"><i class="fab fa-weibo"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Email" href="mailto:etherealsymbol@gmail.com"><i class="fa fa-envelope"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="RSS" href="/atom.xml"><i class="fas fa-rss"></i></a></div></div></div><div class="card widget" id="toc"><div class="card-content"><div class="menu"><h3 class="menu-label">目录</h3><ul class="menu-list"><li><a class="is-flex" href="#一、交互设计简介"><span class="mr-2">1</span><span>一、交互设计简介</span></a></li><li><a class="is-flex" href="#二、理解与概念化交互"><span class="mr-2">2</span><span>二、理解与概念化交互</span></a><ul class="menu-list"><li><a class="is-flex" href="#2-1-什么是原型？"><span class="mr-2">2.1</span><span>2.1 什么是原型？</span></a></li><li><a class="is-flex" href="#2-2-概念模型"><span class="mr-2">2.2</span><span>2.2 概念模型</span></a></li></ul></li><li><a class="is-flex" href="#三、理解用户"><span class="mr-2">3</span><span>三、理解用户</span></a></li><li><a class="is-flex" href="#四、协作与通信的设计"><span class="mr-2">4</span><span>四、协作与通信的设计</span></a></li><li><a class="is-flex" href="#五、理解界面对用户的影响"><span class="mr-2">5</span><span>五、理解界面对用户的影响</span></a><ul class="menu-list"><li><a class="is-flex" href="#5-1-掌握只读存储器结构和工作原理"><span class="mr-2">5.1</span><span>5.1 掌握只读存储器结构和工作原理</span></a></li><li><a class="is-flex" href="#5-2-掌握随机存储器结构和工作原理"><span class="mr-2">5.2</span><span>5.2 掌握随机存储器结构和工作原理</span></a></li><li><a class="is-flex" href="#5-3-掌握存储器容量扩展方法"><span class="mr-2">5.3</span><span>5.3 掌握存储器容量扩展方法</span></a></li><li><a class="is-flex" href="#5-4-熟悉用存储器实现组合逻辑函数的方法"><span class="mr-2">5.4</span><span>5.4 熟悉用存储器实现组合逻辑函数的方法</span></a></li></ul></li><li><a class="is-flex" href="#六、交互设计过程"><span class="mr-2">6</span><span>六、交互设计过程</span></a></li><li><a class="is-flex" href="#七、识别需求并建立需求"><span class="mr-2">7</span><span>七、识别需求并建立需求</span></a></li><li><a class="is-flex" href="#八、设计原型建立与构造"><span class="mr-2">8</span><span>八、设计原型建立与构造</span></a></li><li><a class="is-flex" href="#九、以用户为中心的交互设计"><span class="mr-2">9</span><span>九、以用户为中心的交互设计</span></a></li></ul></div></div></div><div class="card widget"><div class="card-content"><div class="menu"><h3 class="menu-label">链接</h3><ul class="menu-list"><li><a class="level is-mobile is-mobile" href="https://hexo.io" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Hexo</span></span><span class="level-right"><span class="level-item tag">hexo.io</span></span></a></li><li><a class="level is-mobile is-mobile" href="https://bulma.io" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Bulma</span></span><span class="level-right"><span class="level-item tag">bulma.io</span></span></a></li><li><a class="level is-mobile is-mobile" href="https://spring.io" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Spring</span></span><span class="level-right"><span class="level-item tag">spring.io</span></span></a></li><li><a class="level is-mobile is-mobile" href="https://redis.io" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Redis</span></span><span class="level-right"><span class="level-item tag">redis.io</span></span></a></li><li><a class="level is-mobile is-mobile" href="https://docker.com" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Docker</span></span><span class="level-right"><span class="level-item tag">docker.com</span></span></a></li></ul></div></div></div><div class="card widget"><div class="card-content"><div class="menu"><h3 class="menu-label">分类</h3><ul class="menu-list"><li><a class="level is-mobile is-marginless" href="/categories/Axios/"><span class="level-start"><span class="level-item">Axios</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile is-marginless" href="/categories/C/"><span class="level-start"><span class="level-item">C</span></span><span class="level-end"><span class="level-item tag">14</span></span></a></li><li><a class="level is-mobile is-marginless" href="/categories/CSharp/"><span class="level-start"><span class="level-item">CSharp</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile is-marginless" href="/categories/ElasticSearch/"><span class="level-start"><span class="level-item">ElasticSearch</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile is-marginless" href="/categories/Electron-Vue/"><span class="level-start"><span class="level-item">Electron-Vue</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile is-marginless" href="/categories/Element-UI/"><span class="level-start"><span class="level-item">Element-UI</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile is-marginless" href="/categories/GitHub/"><span class="level-start"><span class="level-item">GitHub</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile is-marginless" href="/categories/Hexo/"><span class="level-start"><span class="level-item">Hexo</span></span><span class="level-end"><span class="level-item tag">4</span></span></a></li><li><a class="level is-mobile is-marginless" href="/categories/Interview/"><span class="level-start"><span class="level-item">Interview</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile is-marginless" href="/categories/Java/"><span class="level-start"><span class="level-item">Java</span></span><span class="level-end"><span class="level-item tag">4</span></span></a></li><li><a class="level is-mobile is-marginless" href="/categories/OS/"><span class="level-start"><span class="level-item">OS</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li><li><a class="level is-mobile is-marginless" href="/categories/Redis/"><span class="level-start"><span class="level-item">Redis</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile is-marginless" href="/categories/Spring/"><span class="level-start"><span class="level-item">Spring</span></span><span class="level-end"><span class="level-item tag">12</span></span></a></li><li><a class="level is-mobile is-marginless" href="/categories/Study/"><span class="level-start"><span class="level-item">Study</span></span><span class="level-end"><span class="level-item tag">13</span></span></a></li><li><a class="level is-mobile is-marginless" href="/categories/TypeScript/"><span class="level-start"><span class="level-item">TypeScript</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></div></div></div><div class="card widget"><div class="card-content"><div class="menu"><h3 class="menu-label">标签</h3><div class="field is-grouped is-grouped-multiline"><div class="control"><a class="tags has-addons" href="/tags/English/"><span class="tag">English</span><span class="tag is-grey-lightest">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E4%B8%BB%E9%A2%98/"><span class="tag">主题</span><span class="tag is-grey-lightest">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E5%89%8D%E7%AB%AF/"><span class="tag">前端</span><span class="tag is-grey-lightest">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E5%8E%9F%E7%90%86/"><span class="tag">原理</span><span class="tag is-grey-lightest">4</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E5%A4%8D%E8%AF%95/"><span class="tag">复试</span><span class="tag is-grey-lightest">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E/"><span class="tag">搜索引擎</span><span class="tag is-grey-lightest">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"><span class="tag">数据库</span><span class="tag is-grey-lightest">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E6%A0%A1%E6%8B%9B/"><span class="tag">校招</span><span class="tag is-grey-lightest">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E6%A1%86%E6%9E%B6/"><span class="tag">框架</span><span class="tag is-grey-lightest">12</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E7%A7%AF%E7%B4%AF/"><span class="tag">积累</span><span class="tag is-grey-lightest">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E7%AE%97%E6%B3%95/"><span class="tag">算法</span><span class="tag is-grey-lightest">14</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E8%80%83%E7%A0%94/"><span class="tag">考研</span><span class="tag is-grey-lightest">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/"><span class="tag">计算机基础</span><span class="tag is-grey-lightest">7</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E8%AF%BE%E7%A8%8B/"><span class="tag">课程</span><span class="tag is-grey-lightest">4</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E9%85%8D%E7%BD%AE/"><span class="tag">配置</span><span class="tag is-grey-lightest">7</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E9%9D%A2%E8%AF%95%E9%A2%98%E9%9B%86/"><span class="tag">面试题集</span><span class="tag is-grey-lightest">2</span></a></div></div></div></div></div><div class="card widget"><div class="card-content"><div class="menu"><h3 class="menu-label">订阅更新</h3><form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open(&#039;https://feedburner.google.com/fb/a/mailverify?uri=&#039;,&#039;popupwindow&#039;,&#039;scrollbars=yes,width=550,height=520&#039;);return true"><input type="hidden" value="" name="uri"><input type="hidden" name="loc" value="en_US"><div class="field has-addons"><div class="control has-icons-left is-expanded"><input class="input" name="email" type="email" placeholder="Email"><span class="icon is-small is-left"><i class="fas fa-envelope"></i></span></div><div class="control"><input class="button is-primary" type="submit" value="订阅"></div></div></form></div></div></div></div></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="/img/mylogo.svg" alt="Longing(MysteryGuest的博客)" height="28"></a><p class="size-small"><span>&copy; 2021 MysticalGuest</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener nofollow">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener nofollow">Icarus</a><br><span id="busuanzi_container_site_uv">共<span id="busuanzi_value_site_uv">0</span>个访客</span><br><span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv">0</span>次</span><br><span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span><span><script>	var now = new Date();	function createtime() {		var grt= new Date("4/2/2020 08:00:00");		now.setTime(now.getTime()+250);		days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 		hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 		if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum); 		mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 		seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 		snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 		document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 "; 		document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";	}	setInterval("createtime()",250);</script></span></p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="GitHub" href="https://github.com/MysticalGuest"><i class="fab fa-github"></i></a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script>moment.locale("zh-CN");</script><script>var IcarusThemeSettings = {
+            site: {
+                url: 'https://mysticalguest.github.io',
+                external_link: {"enable":true,"exclude":[]}
+            },
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
+            }
+        };</script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script src="/js/animation.js"></script><a id="back-to-top" title="回到顶端" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><script src="/js/click.js"></script><script src="/js/anime.min.js"></script><canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;"></canvas><script src="/js/snow.js"></script><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+            if (typeof $.fn.lightGallery === 'function') {
+                $('.article').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof $.fn.justifiedGallery === 'function') {
+                if ($('.justified-gallery > p > .gallery-item').length) {
+                    $('.justified-gallery > p > .gallery-item').unwrap();
+                }
+                $('.justified-gallery').justifiedGallery();
+            }
+        });</script><!--!--><!--!--><script type="text/x-mathjax-config">MathJax.Hub.Config({
+            'HTML-CSS': {
+                matchFontHeight: false
+            },
+            SVG: {
+                matchFontHeight: false
+            },
+            CommonHTML: {
+                matchFontHeight: false
+            },
+            tex2jax: {
+                inlineMath: [
+                    ['$','$'],
+                    ['\\(','\\)']
+                ]
+            }
+        });</script><script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/unpacked/MathJax.js?config=TeX-MML-AM_CHTML" defer></script><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="想要查找什么..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/content.json"}, {"hint":"想要查找什么...","untitled":"(无标题)","posts":"文章","pages":"页面","categories":"分类","tags":"标签"});
+        });</script></body></html>
